@@ -1,0 +1,32 @@
+<h1> Adicionar Produto</h1>
+<br />
+
+<style type="text/css">
+.fieldWithErrors input, .fieldWithErrors textarea {border:1px solid red;}
+</style>
+
+<% form_for :product, :url=> {:action=>:save} do |form| %>
+
+	<%= form.error_messages %>
+
+	<%= form.label :name, 'Nome:' %> <br />
+	<%= form.text_field :name %> <br /><br />
+	
+	<%= form.label :price, 'Preço:' %> <br />
+	<%= form.text_field :price %> <br /><br />
+	
+	<!-- Campo estoque -->
+	<%= form.label :name, 'Estoque:' %> <br />
+	<%= form.text_field :stock %> <br /><br />
+	
+	<%= form.check_box :front %>
+	<%= form.label :front, 'Capa?' %> <br /><br />
+	
+	<%= form.label :description, 'Descrição:' %> <br />
+	<%= form.text_area :description, :rows => 3 %> <br /><br />
+	
+	<%= form.submit 'Salvar' %>
+
+<% end %>
+
+<% # for col in Product.column_name%> 

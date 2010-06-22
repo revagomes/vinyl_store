@@ -1,0 +1,15 @@
+<%= javascript_include_tag 'jquery-1.4.2.js' %>
+<div id="container" style="height:300px;border:5px solid grey; padding:10px;">
+</div>
+<br />
+<button id="go">Go!</button>
+<script type="text/javascript">
+  $("#go").click(function(){
+    // $("#container").load("/ajax/ajax")
+    $.getJSON("/ajax/ajax", function(data){
+      $(data).each(function(k,v){
+        $("#container").append(v.product.name + "<br />");
+      })
+    })
+  });
+</script>

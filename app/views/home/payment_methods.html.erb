@@ -1,0 +1,6 @@
+<% for pm in @payment_methods %>
+<h1><%= pm.name %></h1><br />
+<p><%= pm.description %></p>
+<hr />
+<% end %>
+<%= link_to 'Voltar', :action => :index %>

@@ -1,0 +1,21 @@
+<div class="topo">
+	<h1>No Masters Distro</h1>
+	<h3>Punk, Crust, D-beat, Thrash, Black Metal</h3>
+</div>
+<br />
+<% for product in @products %>
+  <h4><%= product.name %></h4>
+  <p>preço: <%= product.price %></p>
+  <%= link_to 'Mais info', :action => :product, :id => product %>
+  <hr />
+<% end %>
+
+<br />
+
+<p>Formas de pagamento</p>
+<% for pm in @payment_methods %>
+<%= pm.name %><br />
+<% end %>
+<br />
+<%= link_to 'Mais info', :action => :payment_methods %>
+

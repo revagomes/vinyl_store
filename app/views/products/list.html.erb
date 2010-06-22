@@ -1,0 +1,32 @@
+<h1>No Masters distro</h1>
+<p>	Veja abaixo a lista de materiais que temos disponíveis.</p>
+
+<% if flash[:success] %>
+	<div style="background-color:#7d7;color:white; padding:10px; margin-bottom:20px;">
+		<%= flash[:success]%>
+	</div>
+<% end %>
+
+<a href="/products/add">Adicionar produto</a>
+
+<br />
+
+<table border="1">
+	<tr>
+		<th>Cód.</th>
+		<th>Nome</th>
+		<th>Preço</th>
+		<th>Estoque</th>
+		<th>Capa?</th>
+	</tr>
+	<% for product in @products %>
+
+		<tr>
+			<td><%= product.id %></td>
+			<td><%= product.name %></td>
+			<td>R$ <%= product.price %></td>
+			<td><%= product.stock %></td>
+			<td><%= product.front ? 'Sim' : 'Não' %></td>
+		</tr>
+	<% end %>
+</table>
