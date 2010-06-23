@@ -19,7 +19,7 @@ class CartController < ApplicationController
   def remove
     oi = @order.order_items.find(params[:id])
     oi.destroy
-    @order.update_attribute :total, order.order_items.sum(:total)
+    @order.update_attribute :total, @order.order_items.sum(:total)
     redirect_to :action => :index
   end
 
