@@ -1,0 +1,19 @@
+<table border="1" celpadding="2">
+  <tr>
+    <th>Produto</th>
+    <th>Qtd</th>
+    <th>Total</th>
+    <th>Ações</th>
+  </tr>
+  <% for item in @order.order_items %>
+  <tr>
+    <td><%= item.product.name %></td>
+    <td>
+	  <input type="text" neme="item[<%= item.id %>]" size="5" value="<%= item.quantity %>"/>
+      <%= item.quantity %>
+    </td>
+    <td><%= item.total %></td>
+    <td><%= link_to 'Excluir', :action => :remove, :id => item %></td>
+  </tr>
+  <% end %>
+</table>

@@ -2,11 +2,11 @@
 	<h1>No Masters Distro</h1>
 	<h3>Punk, Crust, D-beat, Thrash, Black Metal</h3>
 </div>
-<br />
 <% for product in @products %>
   <h4><%= product.name %></h4>
   <p>preço: <%= product.price %></p>
   <%= link_to 'Mais info', :action => :product, :id => product %>
+  <%= link_to 'Comprar', :controller => :cart, :action => :add, :id => product %>
   <hr />
 <% end %>
 

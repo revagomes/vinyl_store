@@ -1,0 +1,11 @@
+<h1>Seu Carrinho</h1>
+<br />
+<%= link_to 'Comprar mais', root_path %>
+<br />
+<form action="/cart/update" method="post">
+	<%= token_tag %>
+	<%= render :partial => 'grid' %>
+	<input type="submit" value="Atualizar" />
+</form>
+<hr />
+<%= link_to 'Voltar', :controller => :home, :action => :index %>

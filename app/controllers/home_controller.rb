@@ -1,7 +1,8 @@
 class HomeController < ApplicationController
+  layout 'store'
   def index
     @products = Product.front.with_stock
-	@payment_methods = PaymentMethod.active
+	  @payment_methods = PaymentMethod.active
   end
   
   def product
@@ -9,6 +10,6 @@ class HomeController < ApplicationController
   end
   
   def payment_methods
-	@payment_methods = PaymentMethod.active
+	  @payment_methods = PaymentMethod.active
   end
 end
