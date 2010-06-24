@@ -11,7 +11,7 @@
     <td>
 	  <input type="text" name="item[<%= item.id %>]" size="5" value="<%= item.quantity %>"/>
     </td>
-    <td><%= item.product.price %></td>
+    <td><%= item.total %></td>
     <td><%= link_to 'Excluir', :action => :remove, :id => item %></td>
   </tr>
   <% end %>
