@@ -30,7 +30,7 @@ class ProductTest < ActiveSupport::TestCase
     
     5.times {|i| Product.create :name => "not front #{i}", :price => 1, :stock => 1, :front => false, :description => 'no'*25 }
     assert_equal 10, Product.count
-    assert_equal 5, Product.front.count
+    assert_equal 5, Product.front.coun
     assert_equal front.sort_by(&:id), Product.front.sort_by(&:id)
   end
   
