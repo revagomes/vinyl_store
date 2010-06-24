@@ -12,7 +12,7 @@ class CartController < ApplicationController
       item = @order.order_items.new :product => @product
     end
     item.save
-    
+
     redirect_to :action => :index
   end
 
@@ -24,7 +24,8 @@ class CartController < ApplicationController
   end
 
   def update
-    for id,quantity in params[:item]
+    # raise params.inspect
+    for id, quantity in params[:item]
       @order.order_items.find(id).update_attribute :quantity, quantity
     end
     redirect_to :action => :index

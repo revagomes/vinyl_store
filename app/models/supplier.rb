@@ -4,12 +4,12 @@ class Supplier < ActiveRecord::Base
   validates_presence_of :name,:person, :accress
   validates_uniqueness_of :name
   validates_inclusion_of :person, :in => ['física','jurídica']
-  validates :valid_document
+  validate :valid_document
   def valid_document
     if person == 'física'
-	  erros.add(:cpf, 'é obrigatório para PFs') if cpf.nil? or cpf.empty?
-	elsif
-	  errors.add(:cnpj, 'é obrigatório para PJs') if cnpj.nil? or cnpj.empty?
-	end
+	    erros.add(:cpf, 'é obrigatório para PFs') if cpf.nil? or cpf.empty?
+	  else
+	    errors.add(:cnpj, 'é obrigatório para PJs') if cnpj.nil? or cnpj.empty?
+	  end
   end
 end

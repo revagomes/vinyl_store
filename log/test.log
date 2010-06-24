@@ -1,0 +1,709 @@
+  [4;36;1mAddress Create (0.6ms)[0m   [0;1mINSERT INTO "addresses" ("city", "zip", "updated_at", "number", "street", "user_id", "state", "created_at") VALUES(NULL, NULL, '2010-06-23 23:10:26', NULL, NULL, NULL, NULL, '2010-06-23 23:10:26')[0m
+  [4;36;1mAddress Create (0.4ms)[0m   [0;1mINSERT INTO "addresses" ("city", "zip", "updated_at", "number", "street", "user_id", "state", "created_at") VALUES(NULL, NULL, '2010-06-23 23:11:06', NULL, NULL, NULL, NULL, '2010-06-23 23:11:06')[0m
+  [4;36;1mAddress Create (0.3ms)[0m   [0;1mINSERT INTO "addresses" ("city", "zip", "updated_at", "number", "street", "user_id", "state", "created_at") VALUES(NULL, NULL, '2010-06-23 23:12:16', NULL, NULL, NULL, NULL, '2010-06-23 23:12:16')[0m
+  [4;36;1mAddress Create (0.5ms)[0m   [0;1mINSERT INTO "addresses" ("city", "zip", "updated_at", "number", "street", "user_id", "state", "created_at") VALUES(NULL, NULL, '2010-06-23 23:13:07', NULL, NULL, NULL, NULL, '2010-06-23 23:13:07')[0m
+  [4;36;1mSQL (0.6ms)[0m   [0;1m SELECT name
+ FROM sqlite_master
+ WHERE type = 'table' AND NOT name = 'sqlite_sequence'
+[0m
+  [4;35;1mSQL (0.5ms)[0m   [0m SELECT name
+ FROM sqlite_master
+ WHERE type = 'table' AND NOT name = 'sqlite_sequence'
+[0m
+  [4;36;1mSQL (0.5ms)[0m   [0;1m SELECT name
+ FROM sqlite_master
+ WHERE type = 'table' AND NOT name = 'sqlite_sequence'
+[0m
+  [4;35;1mSQL (0.5ms)[0m   [0m SELECT name
+ FROM sqlite_master
+ WHERE type = 'table' AND NOT name = 'sqlite_sequence'
+[0m
+  [4;36;1mSQL (0.6ms)[0m   [0;1m SELECT name
+ FROM sqlite_master
+ WHERE type = 'table' AND NOT name = 'sqlite_sequence'
+[0m
+  [4;35;1mSQL (0.5ms)[0m   [0m SELECT name
+ FROM sqlite_master
+ WHERE type = 'table' AND NOT name = 'sqlite_sequence'
+[0m
+  [4;36;1mSQL (0.5ms)[0m   [0;1m SELECT name
+ FROM sqlite_master
+ WHERE type = 'table' AND NOT name = 'sqlite_sequence'
+[0m
+  [4;35;1mSQL (0.5ms)[0m   [0m SELECT name
+ FROM sqlite_master
+ WHERE type = 'table' AND NOT name = 'sqlite_sequence'
+[0m
+  [4;36;1mSQL (0.5ms)[0m   [0;1m SELECT name
+ FROM sqlite_master
+ WHERE type = 'table' AND NOT name = 'sqlite_sequence'
+[0m
+  [4;35;1mSQL (0.5ms)[0m   [0m SELECT name
+ FROM sqlite_master
+ WHERE type = 'table' AND NOT name = 'sqlite_sequence'
+[0m
+  [4;36;1mSQL (0.5ms)[0m   [0;1m SELECT name
+ FROM sqlite_master
+ WHERE type = 'table' AND NOT name = 'sqlite_sequence'
+[0m
+  [4;35;1mSQL (0.5ms)[0m   [0m SELECT name
+ FROM sqlite_master
+ WHERE type = 'table' AND NOT name = 'sqlite_sequence'
+[0m
+  [4;36;1mSQL (0.5ms)[0m   [0;1m SELECT name
+ FROM sqlite_master
+ WHERE type = 'table' AND NOT name = 'sqlite_sequence'
+[0m
+  [4;35;1mSQL (0.5ms)[0m   [0m SELECT name
+ FROM sqlite_master
+ WHERE type = 'table' AND NOT name = 'sqlite_sequence'
+[0m
+  [4;36;1mSQL (0.5ms)[0m   [0;1m SELECT name
+ FROM sqlite_master
+ WHERE type = 'table' AND NOT name = 'sqlite_sequence'
+[0m
+  [4;35;1mSQL (0.5ms)[0m   [0m SELECT name
+ FROM sqlite_master
+ WHERE type = 'table' AND NOT name = 'sqlite_sequence'
+[0m
+  [4;36;1mSQL (0.5ms)[0m   [0;1m SELECT name
+ FROM sqlite_master
+ WHERE type = 'table' AND NOT name = 'sqlite_sequence'
+[0m
+  [4;35;1mSQL (0.5ms)[0m   [0m SELECT name
+ FROM sqlite_master
+ WHERE type = 'table' AND NOT name = 'sqlite_sequence'
+[0m
+  [4;36;1mSQL (0.5ms)[0m   [0;1m SELECT name
+ FROM sqlite_master
+ WHERE type = 'table' AND NOT name = 'sqlite_sequence'
+[0m
+  [4;35;1mSQL (0.5ms)[0m   [0m SELECT name
+ FROM sqlite_master
+ WHERE type = 'table' AND NOT name = 'sqlite_sequence'
+[0m
+  [4;36;1mSQL (0.5ms)[0m   [0;1m SELECT name
+ FROM sqlite_master
+ WHERE type = 'table' AND NOT name = 'sqlite_sequence'
+[0m
+  [4;35;1mSQL (0.5ms)[0m   [0m SELECT name
+ FROM sqlite_master
+ WHERE type = 'table' AND NOT name = 'sqlite_sequence'
+[0m
+  [4;36;1mSQL (0.5ms)[0m   [0;1m SELECT name
+ FROM sqlite_master
+ WHERE type = 'table' AND NOT name = 'sqlite_sequence'
+[0m
+  [4;35;1mSQL (0.5ms)[0m   [0m SELECT name
+ FROM sqlite_master
+ WHERE type = 'table' AND NOT name = 'sqlite_sequence'
+[0m
+  [4;36;1mSQL (0.5ms)[0m   [0;1m SELECT name
+ FROM sqlite_master
+ WHERE type = 'table' AND NOT name = 'sqlite_sequence'
+[0m
+  [4;35;1mSQL (0.5ms)[0m   [0m SELECT name
+ FROM sqlite_master
+ WHERE type = 'table' AND NOT name = 'sqlite_sequence'
+[0m
+  [4;36;1mSQL (0.5ms)[0m   [0;1m SELECT name
+ FROM sqlite_master
+ WHERE type = 'table' AND NOT name = 'sqlite_sequence'
+[0m
+  [4;35;1mSQL (0.5ms)[0m   [0m SELECT name
+ FROM sqlite_master
+ WHERE type = 'table' AND NOT name = 'sqlite_sequence'
+[0m
+  [4;36;1mSQL (0.5ms)[0m   [0;1m SELECT name
+ FROM sqlite_master
+ WHERE type = 'table' AND NOT name = 'sqlite_sequence'
+[0m
+  [4;35;1mSQL (0.5ms)[0m   [0m SELECT name
+ FROM sqlite_master
+ WHERE type = 'table' AND NOT name = 'sqlite_sequence'
+[0m
+  [4;36;1mSQL (0.5ms)[0m   [0;1m SELECT name
+ FROM sqlite_master
+ WHERE type = 'table' AND NOT name = 'sqlite_sequence'
+[0m
+  [4;35;1mSQL (0.5ms)[0m   [0m SELECT name
+ FROM sqlite_master
+ WHERE type = 'table' AND NOT name = 'sqlite_sequence'
+[0m
+  [4;36;1mSQL (0.5ms)[0m   [0;1m SELECT name
+ FROM sqlite_master
+ WHERE type = 'table' AND NOT name = 'sqlite_sequence'
+[0m
+  [4;35;1mSQL (0.5ms)[0m   [0m SELECT name
+ FROM sqlite_master
+ WHERE type = 'table' AND NOT name = 'sqlite_sequence'
+[0m
+  [4;36;1mSQL (0.5ms)[0m   [0;1m SELECT name
+ FROM sqlite_master
+ WHERE type = 'table' AND NOT name = 'sqlite_sequence'
+[0m
+  [4;35;1mSQL (0.5ms)[0m   [0m SELECT name
+ FROM sqlite_master
+ WHERE type = 'table' AND NOT name = 'sqlite_sequence'
+[0m
+  [4;36;1mSQL (0.5ms)[0m   [0;1m SELECT name
+ FROM sqlite_master
+ WHERE type = 'table' AND NOT name = 'sqlite_sequence'
+[0m
+  [4;35;1mSQL (0.5ms)[0m   [0m SELECT name
+ FROM sqlite_master
+ WHERE type = 'table' AND NOT name = 'sqlite_sequence'
+[0m
+  [4;36;1mSQL (0.5ms)[0m   [0;1m SELECT name
+ FROM sqlite_master
+ WHERE type = 'table' AND NOT name = 'sqlite_sequence'
+[0m
+  [4;35;1mSQL (0.5ms)[0m   [0m SELECT name
+ FROM sqlite_master
+ WHERE type = 'table' AND NOT name = 'sqlite_sequence'
+[0m
+  [4;36;1mSQL (0.6ms)[0m   [0;1m SELECT name
+ FROM sqlite_master
+ WHERE type = 'table' AND NOT name = 'sqlite_sequence'
+[0m
+  [4;35;1mSQL (0.8ms)[0m   [0m SELECT name
+ FROM sqlite_master
+ WHERE type = 'table' AND NOT name = 'sqlite_sequence'
+[0m
+  [4;36;1mSQL (0.6ms)[0m   [0;1m SELECT name
+ FROM sqlite_master
+ WHERE type = 'table' AND NOT name = 'sqlite_sequence'
+[0m
+  [4;35;1mSQL (0.8ms)[0m   [0m SELECT name
+ FROM sqlite_master
+ WHERE type = 'table' AND NOT name = 'sqlite_sequence'
+[0m
+  [4;36;1mSQL (0.7ms)[0m   [0;1m SELECT name
+ FROM sqlite_master
+ WHERE type = 'table' AND NOT name = 'sqlite_sequence'
+[0m
+  [4;35;1mSQL (0.7ms)[0m   [0m SELECT name
+ FROM sqlite_master
+ WHERE type = 'table' AND NOT name = 'sqlite_sequence'
+[0m
+  [4;36;1mSQL (0.7ms)[0m   [0;1m SELECT name
+ FROM sqlite_master
+ WHERE type = 'table' AND NOT name = 'sqlite_sequence'
+[0m
+  [4;35;1mSQL (0.7ms)[0m   [0m SELECT name
+ FROM sqlite_master
+ WHERE type = 'table' AND NOT name = 'sqlite_sequence'
+[0m
+  [4;36;1mSQL (0.6ms)[0m   [0;1m SELECT name
+ FROM sqlite_master
+ WHERE type = 'table' AND NOT name = 'sqlite_sequence'
+[0m
+  [4;35;1mSQL (0.6ms)[0m   [0m SELECT name
+ FROM sqlite_master
+ WHERE type = 'table' AND NOT name = 'sqlite_sequence'
+[0m
+  [4;36;1mSQL (1.2ms)[0m   [0;1m SELECT name
+ FROM sqlite_master
+ WHERE type = 'table' AND NOT name = 'sqlite_sequence'
+[0m
+  [4;35;1mSQL (0.5ms)[0m   [0m SELECT name
+ FROM sqlite_master
+ WHERE type = 'table' AND NOT name = 'sqlite_sequence'
+[0m
+  [4;36;1mSQL (0.5ms)[0m   [0;1m SELECT name
+ FROM sqlite_master
+ WHERE type = 'table' AND NOT name = 'sqlite_sequence'
+[0m
+  [4;35;1mSQL (0.5ms)[0m   [0m SELECT name
+ FROM sqlite_master
+ WHERE type = 'table' AND NOT name = 'sqlite_sequence'
+[0m
+  [4;36;1mSQL (0.5ms)[0m   [0;1m SELECT name
+ FROM sqlite_master
+ WHERE type = 'table' AND NOT name = 'sqlite_sequence'
+[0m
+  [4;35;1mSQL (0.5ms)[0m   [0m SELECT name
+ FROM sqlite_master
+ WHERE type = 'table' AND NOT name = 'sqlite_sequence'
+[0m
+  [4;36;1mSQL (0.6ms)[0m   [0;1m SELECT name
+ FROM sqlite_master
+ WHERE type = 'table' AND NOT name = 'sqlite_sequence'
+[0m
+  [4;35;1mSQL (0.5ms)[0m   [0m SELECT name
+ FROM sqlite_master
+ WHERE type = 'table' AND NOT name = 'sqlite_sequence'
+[0m
+  [4;36;1mSQL (0.6ms)[0m   [0;1m SELECT name
+ FROM sqlite_master
+ WHERE type = 'table' AND NOT name = 'sqlite_sequence'
+[0m
+  [4;35;1mSQL (0.5ms)[0m   [0m SELECT name
+ FROM sqlite_master
+ WHERE type = 'table' AND NOT name = 'sqlite_sequence'
+[0m
+  [4;36;1mSQL (0.5ms)[0m   [0;1m SELECT name
+ FROM sqlite_master
+ WHERE type = 'table' AND NOT name = 'sqlite_sequence'
+[0m
+  [4;35;1mSQL (0.5ms)[0m   [0m SELECT name
+ FROM sqlite_master
+ WHERE type = 'table' AND NOT name = 'sqlite_sequence'
+[0m
+  [4;36;1mSQL (0.5ms)[0m   [0;1m SELECT name
+ FROM sqlite_master
+ WHERE type = 'table' AND NOT name = 'sqlite_sequence'
+[0m
+  [4;35;1mSQL (0.5ms)[0m   [0m SELECT name
+ FROM sqlite_master
+ WHERE type = 'table' AND NOT name = 'sqlite_sequence'
+[0m
+  [4;36;1mSQL (0.5ms)[0m   [0;1m SELECT name
+ FROM sqlite_master
+ WHERE type = 'table' AND NOT name = 'sqlite_sequence'
+[0m
+  [4;35;1mSQL (0.5ms)[0m   [0m SELECT name
+ FROM sqlite_master
+ WHERE type = 'table' AND NOT name = 'sqlite_sequence'
+[0m
+  [4;36;1mSQL (0.5ms)[0m   [0;1m SELECT name
+ FROM sqlite_master
+ WHERE type = 'table' AND NOT name = 'sqlite_sequence'
+[0m
+  [4;35;1mSQL (0.5ms)[0m   [0m SELECT name
+ FROM sqlite_master
+ WHERE type = 'table' AND NOT name = 'sqlite_sequence'
+[0m
+  [4;36;1mSQL (0.5ms)[0m   [0;1m SELECT name
+ FROM sqlite_master
+ WHERE type = 'table' AND NOT name = 'sqlite_sequence'
+[0m
+  [4;35;1mSQL (0.5ms)[0m   [0m SELECT name
+ FROM sqlite_master
+ WHERE type = 'table' AND NOT name = 'sqlite_sequence'
+[0m
+  [4;36;1mSQL (0.6ms)[0m   [0;1m SELECT name
+ FROM sqlite_master
+ WHERE type = 'table' AND NOT name = 'sqlite_sequence'
+[0m
+  [4;35;1mSQL (0.5ms)[0m   [0m SELECT name
+ FROM sqlite_master
+ WHERE type = 'table' AND NOT name = 'sqlite_sequence'
+[0m
+  [4;36;1mSQL (0.5ms)[0m   [0;1m SELECT name
+ FROM sqlite_master
+ WHERE type = 'table' AND NOT name = 'sqlite_sequence'
+[0m
+  [4;35;1mSQL (0.6ms)[0m   [0m SELECT name
+ FROM sqlite_master
+ WHERE type = 'table' AND NOT name = 'sqlite_sequence'
+[0m
+  [4;36;1mSQL (0.6ms)[0m   [0;1m SELECT name
+ FROM sqlite_master
+ WHERE type = 'table' AND NOT name = 'sqlite_sequence'
+[0m
+  [4;35;1mSQL (0.6ms)[0m   [0m SELECT name
+ FROM sqlite_master
+ WHERE type = 'table' AND NOT name = 'sqlite_sequence'
+[0m
+  [4;36;1mSQL (0.6ms)[0m   [0;1m SELECT name
+ FROM sqlite_master
+ WHERE type = 'table' AND NOT name = 'sqlite_sequence'
+[0m
+  [4;35;1mSQL (0.6ms)[0m   [0m SELECT name
+ FROM sqlite_master
+ WHERE type = 'table' AND NOT name = 'sqlite_sequence'
+[0m
+  [4;36;1mSQL (0.6ms)[0m   [0;1m SELECT name
+ FROM sqlite_master
+ WHERE type = 'table' AND NOT name = 'sqlite_sequence'
+[0m
+  [4;35;1mSQL (0.6ms)[0m   [0m SELECT name
+ FROM sqlite_master
+ WHERE type = 'table' AND NOT name = 'sqlite_sequence'
+[0m
+  [4;36;1mAddress Create (0.5ms)[0m   [0;1mINSERT INTO "addresses" ("city", "zip", "updated_at", "number", "street", "user_id", "state", "created_at") VALUES('city', '12345-123', '2010-06-24 00:01:51', '123', 'street', NULL, 'state', '2010-06-24 00:01:51')[0m
+  [4;36;1mAddress Create (0.4ms)[0m   [0;1mINSERT INTO "addresses" ("city", "zip", "updated_at", "number", "street", "user_id", "state", "created_at") VALUES('city', '12345-123', '2010-06-24 00:06:13', '123', 'street', NULL, 'state', '2010-06-24 00:06:13')[0m
+  [4;36;1mAddress Create (0.4ms)[0m   [0;1mINSERT INTO "addresses" ("city", "zip", "updated_at", "number", "street", "user_id", "state", "created_at") VALUES('city', '12345-123', '2010-06-24 00:08:45', '123', 'street', NULL, 'state', '2010-06-24 00:08:45')[0m
+  [4;36;1mAddress Create (0.4ms)[0m   [0;1mINSERT INTO "addresses" ("city", "zip", "updated_at", "number", "street", "user_id", "state", "created_at") VALUES('city', '12345-123', '2010-06-24 00:11:26', '123', 'street', NULL, 'state', '2010-06-24 00:11:26')[0m
+  [4;36;1mAddress Create (0.5ms)[0m   [0;1mINSERT INTO "addresses" ("city", "zip", "updated_at", "number", "street", "user_id", "state", "created_at") VALUES('city', '12345-123', '2010-06-24 00:40:27', '123', 'street', NULL, 'state', '2010-06-24 00:40:27')[0m
+  [4;36;1mAddress Create (0.4ms)[0m   [0;1mINSERT INTO "addresses" ("city", "zip", "updated_at", "number", "street", "user_id", "state", "created_at") VALUES('city', '12345-123', '2010-06-24 00:40:54', '123', 'street', NULL, 'state', '2010-06-24 00:40:54')[0m
+  [4;36;1mAddress Create (0.4ms)[0m   [0;1mINSERT INTO "addresses" ("city", "zip", "updated_at", "number", "street", "user_id", "state", "created_at") VALUES('city', '12345-123', '2010-06-24 00:42:11', '123', 'street', NULL, 'state', '2010-06-24 00:42:11')[0m
+  [4;36;1mProduct Exists (0.2ms)[0m   [0;1mSELECT "products".id FROM "products" WHERE ("products"."name" IS NULL) LIMIT 1[0m
+  [4;36;1mProduct Exists (0.4ms)[0m   [0;1mSELECT "products".id FROM "products" WHERE ("products"."name" IS NULL) LIMIT 1[0m
+  [4;36;1mProduct Exists (0.2ms)[0m   [0;1mSELECT "products".id FROM "products" WHERE ("products"."name" IS NULL) LIMIT 1[0m
+  [4;35;1mProduct Exists (0.2ms)[0m   [0mSELECT "products".id FROM "products" WHERE ("products"."name" IS NULL) LIMIT 1[0m
+  [4;36;1mProduct Exists (0.2ms)[0m   [0;1mSELECT "products".id FROM "products" WHERE ("products"."name" IS NULL) LIMIT 1[0m
+  [4;35;1mProduct Exists (0.2ms)[0m   [0mSELECT "products".id FROM "products" WHERE ("products"."name" IS NULL) LIMIT 1[0m
+  [4;36;1mProduct Exists (0.1ms)[0m   [0;1mSELECT "products".id FROM "products" WHERE ("products"."name" = 'p1') LIMIT 1[0m
+  [4;35;1mProduct Create (0.4ms)[0m   [0mINSERT INTO "products" ("name", "updated_at", "price", "front", "stock", "description", "created_at") VALUES('p1', '2010-06-24 00:48:10', 1.0, 't', 1, 'nonononononononononononononononononononononononono', '2010-06-24 00:48:10')[0m
+  [4;36;1mProduct Exists (0.1ms)[0m   [0;1mSELECT "products".id FROM "products" WHERE ("products"."name" = 'p2') LIMIT 1[0m
+  [4;35;1mProduct Create (0.1ms)[0m   [0mINSERT INTO "products" ("name", "updated_at", "price", "front", "stock", "description", "created_at") VALUES('p2', '2010-06-24 00:48:10', 1.0, 't', 1, 'nonononononononononononononononononononononononono', '2010-06-24 00:48:10')[0m
+  [4;36;1mProduct Exists (0.1ms)[0m   [0;1mSELECT "products".id FROM "products" WHERE ("products"."name" = 'p3') LIMIT 1[0m
+  [4;35;1mProduct Create (0.1ms)[0m   [0mINSERT INTO "products" ("name", "updated_at", "price", "front", "stock", "description", "created_at") VALUES('p3', '2010-06-24 00:48:10', 1.0, 't', 1, 'nonononononononononononononononononononononononono', '2010-06-24 00:48:10')[0m
+  [4;36;1mProduct Exists (0.1ms)[0m   [0;1mSELECT "products".id FROM "products" WHERE ("products"."name" = 'p4') LIMIT 1[0m
+  [4;35;1mProduct Create (0.1ms)[0m   [0mINSERT INTO "products" ("name", "updated_at", "price", "front", "stock", "description", "created_at") VALUES('p4', '2010-06-24 00:48:10', 1.0, 't', 1, 'nonononononononononononononononononononononononono', '2010-06-24 00:48:10')[0m
+  [4;36;1mProduct Exists (0.1ms)[0m   [0;1mSELECT "products".id FROM "products" WHERE ("products"."name" = 'p5') LIMIT 1[0m
+  [4;35;1mProduct Create (0.1ms)[0m   [0mINSERT INTO "products" ("name", "updated_at", "price", "front", "stock", "description", "created_at") VALUES('p5', '2010-06-24 00:48:10', 1.0, 't', 1, 'nonononononononononononononononononononononononono', '2010-06-24 00:48:10')[0m
+  [4;36;1mProduct Exists (0.1ms)[0m   [0;1mSELECT "products".id FROM "products" WHERE ("products"."name" = 'p6') LIMIT 1[0m
+  [4;35;1mProduct Create (0.1ms)[0m   [0mINSERT INTO "products" ("name", "updated_at", "price", "front", "stock", "description", "created_at") VALUES('p6', '2010-06-24 00:48:10', 1.0, 't', 1, 'nonononononononononononononononononononononononono', '2010-06-24 00:48:10')[0m
+  [4;36;1mSQL (0.2ms)[0m   [0;1mSELECT count(*) AS count_all FROM "products" WHERE ("products"."front" = 't') [0m
+  [4;36;1mProduct Exists (0.2ms)[0m   [0;1mSELECT "products".id FROM "products" WHERE ("products"."name" IS NULL) LIMIT 1[0m
+  [4;35;1mProduct Exists (0.2ms)[0m   [0mSELECT "products".id FROM "products" WHERE ("products"."name" IS NULL) LIMIT 1[0m
+  [4;36;1mProduct Exists (0.2ms)[0m   [0;1mSELECT "products".id FROM "products" WHERE ("products"."name" = 'front 0') LIMIT 1[0m
+  [4;35;1mProduct Create (0.4ms)[0m   [0mINSERT INTO "products" ("name", "updated_at", "price", "front", "stock", "description", "created_at") VALUES('front 0', '2010-06-24 01:05:27', 1.0, 't', 1, 'nonononononononononononononononononononononononono', '2010-06-24 01:05:27')[0m
+  [4;36;1mProduct Exists (0.1ms)[0m   [0;1mSELECT "products".id FROM "products" WHERE ("products"."name" = 'front 1') LIMIT 1[0m
+  [4;35;1mProduct Create (0.1ms)[0m   [0mINSERT INTO "products" ("name", "updated_at", "price", "front", "stock", "description", "created_at") VALUES('front 1', '2010-06-24 01:05:27', 1.0, 't', 1, 'nonononononononononononononononononononononononono', '2010-06-24 01:05:27')[0m
+  [4;36;1mProduct Exists (0.1ms)[0m   [0;1mSELECT "products".id FROM "products" WHERE ("products"."name" = 'front 2') LIMIT 1[0m
+  [4;35;1mProduct Create (0.1ms)[0m   [0mINSERT INTO "products" ("name", "updated_at", "price", "front", "stock", "description", "created_at") VALUES('front 2', '2010-06-24 01:05:27', 1.0, 't', 1, 'nonononononononononononononononononononononononono', '2010-06-24 01:05:27')[0m
+  [4;36;1mProduct Exists (0.1ms)[0m   [0;1mSELECT "products".id FROM "products" WHERE ("products"."name" = 'front 3') LIMIT 1[0m
+  [4;35;1mProduct Create (0.1ms)[0m   [0mINSERT INTO "products" ("name", "updated_at", "price", "front", "stock", "description", "created_at") VALUES('front 3', '2010-06-24 01:05:27', 1.0, 't', 1, 'nonononononononononononononononononononononononono', '2010-06-24 01:05:27')[0m
+  [4;36;1mProduct Exists (0.1ms)[0m   [0;1mSELECT "products".id FROM "products" WHERE ("products"."name" = 'front 4') LIMIT 1[0m
+  [4;35;1mProduct Create (0.1ms)[0m   [0mINSERT INTO "products" ("name", "updated_at", "price", "front", "stock", "description", "created_at") VALUES('front 4', '2010-06-24 01:05:27', 1.0, 't', 1, 'nonononononononononononononononononononononononono', '2010-06-24 01:05:27')[0m
+  [4;36;1mProduct Exists (0.1ms)[0m   [0;1mSELECT "products".id FROM "products" WHERE ("products"."name" = 'not front 0') LIMIT 1[0m
+  [4;35;1mProduct Create (0.1ms)[0m   [0mINSERT INTO "products" ("name", "updated_at", "price", "front", "stock", "description", "created_at") VALUES('not front 0', '2010-06-24 01:05:27', 1.0, 'f', 1, 'nonononononononononononononononononononononononono', '2010-06-24 01:05:27')[0m
+  [4;36;1mProduct Exists (0.1ms)[0m   [0;1mSELECT "products".id FROM "products" WHERE ("products"."name" = 'not front 1') LIMIT 1[0m
+  [4;35;1mProduct Create (0.1ms)[0m   [0mINSERT INTO "products" ("name", "updated_at", "price", "front", "stock", "description", "created_at") VALUES('not front 1', '2010-06-24 01:05:27', 1.0, 'f', 1, 'nonononononononononononononononononononononononono', '2010-06-24 01:05:27')[0m
+  [4;36;1mProduct Exists (0.1ms)[0m   [0;1mSELECT "products".id FROM "products" WHERE ("products"."name" = 'not front 2') LIMIT 1[0m
+  [4;35;1mProduct Create (0.1ms)[0m   [0mINSERT INTO "products" ("name", "updated_at", "price", "front", "stock", "description", "created_at") VALUES('not front 2', '2010-06-24 01:05:27', 1.0, 'f', 1, 'nonononononononononononononononononononononononono', '2010-06-24 01:05:27')[0m
+  [4;36;1mProduct Exists (0.1ms)[0m   [0;1mSELECT "products".id FROM "products" WHERE ("products"."name" = 'not front 3') LIMIT 1[0m
+  [4;35;1mProduct Create (0.1ms)[0m   [0mINSERT INTO "products" ("name", "updated_at", "price", "front", "stock", "description", "created_at") VALUES('not front 3', '2010-06-24 01:05:27', 1.0, 'f', 1, 'nonononononononononononononononononononononononono', '2010-06-24 01:05:27')[0m
+  [4;36;1mProduct Exists (0.1ms)[0m   [0;1mSELECT "products".id FROM "products" WHERE ("products"."name" = 'not front 4') LIMIT 1[0m
+  [4;35;1mProduct Create (0.1ms)[0m   [0mINSERT INTO "products" ("name", "updated_at", "price", "front", "stock", "description", "created_at") VALUES('not front 4', '2010-06-24 01:05:27', 1.0, 'f', 1, 'nonononononononononononononononononononononononono', '2010-06-24 01:05:27')[0m
+  [4;36;1mSQL (0.2ms)[0m   [0;1mSELECT count(*) AS count_all FROM "products" [0m
+  [4;35;1mProduct Exists (0.2ms)[0m   [0mSELECT "products".id FROM "products" WHERE ("products"."name" = 'Foo Bar Baz') LIMIT 1[0m
+  [4;36;1mProduct Create (0.3ms)[0m   [0;1mINSERT INTO "products" ("name", "updated_at", "price", "front", "stock", "description", "created_at") VALUES('Foo Bar Baz', '2010-06-24 01:05:27', 1.0, 'f', 1, 'nonononononononononononononononononononononononono', '2010-06-24 01:05:27')[0m
+  [4;36;1mAddress Create (0.4ms)[0m   [0;1mINSERT INTO "addresses" ("city", "zip", "updated_at", "number", "street", "user_id", "state", "created_at") VALUES('city', '12345-123', '2010-06-24 01:09:34', '123', 'street', NULL, 'state', '2010-06-24 01:09:34')[0m
+  [4;35;1mProduct Exists (0.2ms)[0m   [0mSELECT "products".id FROM "products" WHERE ("products"."name" IS NULL) LIMIT 1[0m
+  [4;36;1mProduct Exists (0.1ms)[0m   [0;1mSELECT "products".id FROM "products" WHERE ("products"."name" IS NULL) LIMIT 1[0m
+  [4;35;1mProduct Exists (0.2ms)[0m   [0mSELECT "products".id FROM "products" WHERE ("products"."name" = 'front 0') LIMIT 1[0m
+  [4;36;1mProduct Create (0.3ms)[0m   [0;1mINSERT INTO "products" ("name", "updated_at", "price", "front", "stock", "description", "created_at") VALUES('front 0', '2010-06-24 01:09:34', 1.0, 't', 1, 'nonononononononononononononononononononononononono', '2010-06-24 01:09:34')[0m
+  [4;35;1mProduct Exists (0.1ms)[0m   [0mSELECT "products".id FROM "products" WHERE ("products"."name" = 'front 1') LIMIT 1[0m
+  [4;36;1mProduct Create (0.1ms)[0m   [0;1mINSERT INTO "products" ("name", "updated_at", "price", "front", "stock", "description", "created_at") VALUES('front 1', '2010-06-24 01:09:34', 1.0, 't', 1, 'nonononononononononononononononononononononononono', '2010-06-24 01:09:34')[0m
+  [4;35;1mProduct Exists (0.1ms)[0m   [0mSELECT "products".id FROM "products" WHERE ("products"."name" = 'front 2') LIMIT 1[0m
+  [4;36;1mProduct Create (0.1ms)[0m   [0;1mINSERT INTO "products" ("name", "updated_at", "price", "front", "stock", "description", "created_at") VALUES('front 2', '2010-06-24 01:09:34', 1.0, 't', 1, 'nonononononononononononononononononononononononono', '2010-06-24 01:09:34')[0m
+  [4;35;1mProduct Exists (0.1ms)[0m   [0mSELECT "products".id FROM "products" WHERE ("products"."name" = 'front 3') LIMIT 1[0m
+  [4;36;1mProduct Create (0.1ms)[0m   [0;1mINSERT INTO "products" ("name", "updated_at", "price", "front", "stock", "description", "created_at") VALUES('front 3', '2010-06-24 01:09:34', 1.0, 't', 1, 'nonononononononononononononononononononononononono', '2010-06-24 01:09:34')[0m
+  [4;35;1mProduct Exists (0.1ms)[0m   [0mSELECT "products".id FROM "products" WHERE ("products"."name" = 'front 4') LIMIT 1[0m
+  [4;36;1mProduct Create (0.1ms)[0m   [0;1mINSERT INTO "products" ("name", "updated_at", "price", "front", "stock", "description", "created_at") VALUES('front 4', '2010-06-24 01:09:34', 1.0, 't', 1, 'nonononononononononononononononononononononononono', '2010-06-24 01:09:34')[0m
+  [4;35;1mProduct Exists (0.1ms)[0m   [0mSELECT "products".id FROM "products" WHERE ("products"."name" = 'not front 0') LIMIT 1[0m
+  [4;36;1mProduct Create (0.1ms)[0m   [0;1mINSERT INTO "products" ("name", "updated_at", "price", "front", "stock", "description", "created_at") VALUES('not front 0', '2010-06-24 01:09:34', 1.0, 'f', 1, 'nonononononononononononononononononononononononono', '2010-06-24 01:09:34')[0m
+  [4;35;1mProduct Exists (0.1ms)[0m   [0mSELECT "products".id FROM "products" WHERE ("products"."name" = 'not front 1') LIMIT 1[0m
+  [4;36;1mProduct Create (0.2ms)[0m   [0;1mINSERT INTO "products" ("name", "updated_at", "price", "front", "stock", "description", "created_at") VALUES('not front 1', '2010-06-24 01:09:34', 1.0, 'f', 1, 'nonononononononononononononononononononononononono', '2010-06-24 01:09:34')[0m
+  [4;35;1mProduct Exists (0.1ms)[0m   [0mSELECT "products".id FROM "products" WHERE ("products"."name" = 'not front 2') LIMIT 1[0m
+  [4;36;1mProduct Create (0.1ms)[0m   [0;1mINSERT INTO "products" ("name", "updated_at", "price", "front", "stock", "description", "created_at") VALUES('not front 2', '2010-06-24 01:09:34', 1.0, 'f', 1, 'nonononononononononononononononononononononononono', '2010-06-24 01:09:34')[0m
+  [4;35;1mProduct Exists (0.1ms)[0m   [0mSELECT "products".id FROM "products" WHERE ("products"."name" = 'not front 3') LIMIT 1[0m
+  [4;36;1mProduct Create (0.1ms)[0m   [0;1mINSERT INTO "products" ("name", "updated_at", "price", "front", "stock", "description", "created_at") VALUES('not front 3', '2010-06-24 01:09:34', 1.0, 'f', 1, 'nonononononononononononononononononononononononono', '2010-06-24 01:09:34')[0m
+  [4;35;1mProduct Exists (0.1ms)[0m   [0mSELECT "products".id FROM "products" WHERE ("products"."name" = 'not front 4') LIMIT 1[0m
+  [4;36;1mProduct Create (0.1ms)[0m   [0;1mINSERT INTO "products" ("name", "updated_at", "price", "front", "stock", "description", "created_at") VALUES('not front 4', '2010-06-24 01:09:34', 1.0, 'f', 1, 'nonononononononononononononononononononononononono', '2010-06-24 01:09:34')[0m
+  [4;35;1mSQL (0.2ms)[0m   [0mSELECT count(*) AS count_all FROM "products" [0m
+  [4;36;1mProduct Exists (0.1ms)[0m   [0;1mSELECT "products".id FROM "products" WHERE ("products"."name" = 'Foo Bar Baz') LIMIT 1[0m
+  [4;35;1mProduct Create (0.3ms)[0m   [0mINSERT INTO "products" ("name", "updated_at", "price", "front", "stock", "description", "created_at") VALUES('Foo Bar Baz', '2010-06-24 01:09:34', 1.0, 'f', 1, 'nonononononononononononononononononononononononono', '2010-06-24 01:09:34')[0m
+  [4;36;1mAddress Create (0.4ms)[0m   [0;1mINSERT INTO "addresses" ("city", "zip", "updated_at", "number", "street", "user_id", "state", "created_at") VALUES('city', '12345-123', '2010-06-24 01:13:14', '123', 'street', NULL, 'state', '2010-06-24 01:13:14')[0m
+  [4;35;1mProduct Exists (0.2ms)[0m   [0mSELECT "products".id FROM "products" WHERE ("products"."name" IS NULL) LIMIT 1[0m
+  [4;36;1mProduct Exists (0.2ms)[0m   [0;1mSELECT "products".id FROM "products" WHERE ("products"."name" IS NULL) LIMIT 1[0m
+  [4;35;1mProduct Exists (0.1ms)[0m   [0mSELECT "products".id FROM "products" WHERE ("products"."name" = 'front 0') LIMIT 1[0m
+  [4;36;1mProduct Create (0.3ms)[0m   [0;1mINSERT INTO "products" ("name", "updated_at", "price", "front", "stock", "description", "created_at") VALUES('front 0', '2010-06-24 01:13:14', 1.0, 't', 1, 'nonononononononononononononononononononononononono', '2010-06-24 01:13:14')[0m
+  [4;35;1mProduct Exists (0.1ms)[0m   [0mSELECT "products".id FROM "products" WHERE ("products"."name" = 'front 1') LIMIT 1[0m
+  [4;36;1mProduct Create (0.1ms)[0m   [0;1mINSERT INTO "products" ("name", "updated_at", "price", "front", "stock", "description", "created_at") VALUES('front 1', '2010-06-24 01:13:14', 1.0, 't', 1, 'nonononononononononononononononononononononononono', '2010-06-24 01:13:14')[0m
+  [4;35;1mProduct Exists (0.1ms)[0m   [0mSELECT "products".id FROM "products" WHERE ("products"."name" = 'front 2') LIMIT 1[0m
+  [4;36;1mProduct Create (0.1ms)[0m   [0;1mINSERT INTO "products" ("name", "updated_at", "price", "front", "stock", "description", "created_at") VALUES('front 2', '2010-06-24 01:13:14', 1.0, 't', 1, 'nonononononononononononononononononononononononono', '2010-06-24 01:13:14')[0m
+  [4;35;1mProduct Exists (0.1ms)[0m   [0mSELECT "products".id FROM "products" WHERE ("products"."name" = 'front 3') LIMIT 1[0m
+  [4;36;1mProduct Create (0.1ms)[0m   [0;1mINSERT INTO "products" ("name", "updated_at", "price", "front", "stock", "description", "created_at") VALUES('front 3', '2010-06-24 01:13:14', 1.0, 't', 1, 'nonononononononononononononononononononononononono', '2010-06-24 01:13:14')[0m
+  [4;35;1mProduct Exists (0.1ms)[0m   [0mSELECT "products".id FROM "products" WHERE ("products"."name" = 'front 4') LIMIT 1[0m
+  [4;36;1mProduct Create (0.1ms)[0m   [0;1mINSERT INTO "products" ("name", "updated_at", "price", "front", "stock", "description", "created_at") VALUES('front 4', '2010-06-24 01:13:14', 1.0, 't', 1, 'nonononononononononononononononononononononononono', '2010-06-24 01:13:14')[0m
+  [4;35;1mProduct Exists (0.1ms)[0m   [0mSELECT "products".id FROM "products" WHERE ("products"."name" = 'not front 0') LIMIT 1[0m
+  [4;36;1mProduct Create (0.1ms)[0m   [0;1mINSERT INTO "products" ("name", "updated_at", "price", "front", "stock", "description", "created_at") VALUES('not front 0', '2010-06-24 01:13:14', 1.0, 'f', 1, 'nonononononononononononononononononononononononono', '2010-06-24 01:13:14')[0m
+  [4;35;1mProduct Exists (0.1ms)[0m   [0mSELECT "products".id FROM "products" WHERE ("products"."name" = 'not front 1') LIMIT 1[0m
+  [4;36;1mProduct Create (0.1ms)[0m   [0;1mINSERT INTO "products" ("name", "updated_at", "price", "front", "stock", "description", "created_at") VALUES('not front 1', '2010-06-24 01:13:14', 1.0, 'f', 1, 'nonononononononononononononononononononononononono', '2010-06-24 01:13:14')[0m
+  [4;35;1mProduct Exists (0.1ms)[0m   [0mSELECT "products".id FROM "products" WHERE ("products"."name" = 'not front 2') LIMIT 1[0m
+  [4;36;1mProduct Create (0.1ms)[0m   [0;1mINSERT INTO "products" ("name", "updated_at", "price", "front", "stock", "description", "created_at") VALUES('not front 2', '2010-06-24 01:13:14', 1.0, 'f', 1, 'nonononononononononononononononononononononononono', '2010-06-24 01:13:14')[0m
+  [4;35;1mProduct Exists (0.1ms)[0m   [0mSELECT "products".id FROM "products" WHERE ("products"."name" = 'not front 3') LIMIT 1[0m
+  [4;36;1mProduct Create (0.1ms)[0m   [0;1mINSERT INTO "products" ("name", "updated_at", "price", "front", "stock", "description", "created_at") VALUES('not front 3', '2010-06-24 01:13:14', 1.0, 'f', 1, 'nonononononononononononononononononononononononono', '2010-06-24 01:13:14')[0m
+  [4;35;1mProduct Exists (0.1ms)[0m   [0mSELECT "products".id FROM "products" WHERE ("products"."name" = 'not front 4') LIMIT 1[0m
+  [4;36;1mProduct Create (0.1ms)[0m   [0;1mINSERT INTO "products" ("name", "updated_at", "price", "front", "stock", "description", "created_at") VALUES('not front 4', '2010-06-24 01:13:14', 1.0, 'f', 1, 'nonononononononononononononononononononononononono', '2010-06-24 01:13:14')[0m
+  [4;35;1mSQL (0.2ms)[0m   [0mSELECT count(*) AS count_all FROM "products" [0m
+  [4;36;1mProduct Load (0.7ms)[0m   [0;1mSELECT * FROM "products" WHERE ("products"."front" = 't') [0m
+  [4;35;1mProduct Exists (0.1ms)[0m   [0mSELECT "products".id FROM "products" WHERE ("products"."name" = 'Foo Bar Baz') LIMIT 1[0m
+  [4;36;1mProduct Create (0.3ms)[0m   [0;1mINSERT INTO "products" ("name", "updated_at", "price", "front", "stock", "description", "created_at") VALUES('Foo Bar Baz', '2010-06-24 01:13:14', 1.0, 'f', 1, 'nonononononononononononononononononononononononono', '2010-06-24 01:13:14')[0m
+
+
+Processing HomeController#index (for 0.0.0.0 at 2010-06-23 22:17:54) [GET]
+  [4;36;1mOrder Create (0.5ms)[0m   [0;1mINSERT INTO "orders" ("status", "updated_at", "total", "user_id", "created_at") VALUES(NULL, '2010-06-24 01:17:54', NULL, NULL, '2010-06-24 01:17:54')[0m
+Rendering template within layouts/store
+Rendering home/index
+  [4;35;1mProduct Load (0.3ms)[0m   [0mSELECT * FROM "products" WHERE ((stock > 0) AND ("products"."front" = 't')) [0m
+  [4;36;1mPaymentMethod Load (0.1ms)[0m   [0;1mSELECT * FROM "payment_methods" WHERE ("payment_methods"."active" = 't') [0m
+  [4;35;1mSQL (0.2ms)[0m   [0mSELECT sum("order_items".quantity) AS sum_quantity FROM "order_items" WHERE ("order_items".order_id = 996332878) [0m
+Completed in 11ms (View: 5, DB: 3) | 200 OK [http://test.host/]
+
+
+Processing HomeController#index (for 0.0.0.0 at 2010-06-23 22:20:24) [GET]
+  [4;36;1mOrder Create (0.5ms)[0m   [0;1mINSERT INTO "orders" ("status", "updated_at", "total", "user_id", "created_at") VALUES(NULL, '2010-06-24 01:20:24', NULL, NULL, '2010-06-24 01:20:24')[0m
+Rendering template within layouts/store
+Rendering home/index
+  [4;35;1mProduct Load (0.3ms)[0m   [0mSELECT * FROM "products" WHERE ((stock > 0) AND ("products"."front" = 't')) [0m
+  [4;36;1mPaymentMethod Load (0.1ms)[0m   [0;1mSELECT * FROM "payment_methods" WHERE ("payment_methods"."active" = 't') [0m
+  [4;35;1mSQL (0.2ms)[0m   [0mSELECT sum("order_items".quantity) AS sum_quantity FROM "order_items" WHERE ("order_items".order_id = 996332878) [0m
+Completed in 11ms (View: 5, DB: 3) | 200 OK [http://test.host/]
+
+
+Processing HomeController#index (for 0.0.0.0 at 2010-06-23 22:22:14) [GET]
+  [4;36;1mOrder Create (0.5ms)[0m   [0;1mINSERT INTO "orders" ("status", "updated_at", "total", "user_id", "created_at") VALUES(NULL, '2010-06-24 01:22:14', NULL, NULL, '2010-06-24 01:22:14')[0m
+Rendering template within layouts/store
+Rendering home/index
+  [4;35;1mProduct Load (0.2ms)[0m   [0mSELECT * FROM "products" WHERE ((stock > 0) AND ("products"."front" = 't')) [0m
+  [4;36;1mPaymentMethod Load (0.1ms)[0m   [0;1mSELECT * FROM "payment_methods" WHERE ("payment_methods"."active" = 't') [0m
+  [4;35;1mSQL (0.2ms)[0m   [0mSELECT sum("order_items".quantity) AS sum_quantity FROM "order_items" WHERE ("order_items".order_id = 996332878) [0m
+Completed in 12ms (View: 4, DB: 3) | 200 OK [http://test.host/]
+
+
+Processing HomeController#index (for 0.0.0.0 at 2010-06-23 22:23:47) [GET]
+  [4;36;1mOrder Create (0.5ms)[0m   [0;1mINSERT INTO "orders" ("status", "updated_at", "total", "user_id", "created_at") VALUES(NULL, '2010-06-24 01:23:47', NULL, NULL, '2010-06-24 01:23:47')[0m
+Rendering template within layouts/store
+Rendering home/index
+  [4;35;1mProduct Load (0.2ms)[0m   [0mSELECT * FROM "products" WHERE ((stock > 0) AND ("products"."front" = 't')) [0m
+  [4;36;1mPaymentMethod Load (0.1ms)[0m   [0;1mSELECT * FROM "payment_methods" WHERE ("payment_methods"."active" = 't') [0m
+  [4;35;1mSQL (0.3ms)[0m   [0mSELECT sum("order_items".quantity) AS sum_quantity FROM "order_items" WHERE ("order_items".order_id = 996332878) [0m
+Completed in 12ms (View: 6, DB: 3) | 200 OK [http://test.host/]
+
+
+Processing HomeController#index (for 0.0.0.0 at 2010-06-23 22:24:17) [GET]
+  [4;36;1mOrder Create (0.5ms)[0m   [0;1mINSERT INTO "orders" ("status", "updated_at", "total", "user_id", "created_at") VALUES(NULL, '2010-06-24 01:24:17', NULL, NULL, '2010-06-24 01:24:17')[0m
+Rendering template within layouts/store
+Rendering home/index
+  [4;35;1mProduct Load (0.3ms)[0m   [0mSELECT * FROM "products" WHERE ((stock > 0) AND ("products"."front" = 't')) [0m
+  [4;36;1mPaymentMethod Load (0.1ms)[0m   [0;1mSELECT * FROM "payment_methods" WHERE ("payment_methods"."active" = 't') [0m
+  [4;35;1mSQL (0.2ms)[0m   [0mSELECT sum("order_items".quantity) AS sum_quantity FROM "order_items" WHERE ("order_items".order_id = 996332878) [0m
+Completed in 15ms (View: 9, DB: 3) | 200 OK [http://test.host/]
+
+
+Processing HomeController#index (for 0.0.0.0 at 2010-06-23 22:27:17) [GET]
+  [4;36;1mOrder Create (0.5ms)[0m   [0;1mINSERT INTO "orders" ("status", "updated_at", "total", "user_id", "created_at") VALUES(NULL, '2010-06-24 01:27:17', NULL, NULL, '2010-06-24 01:27:17')[0m
+Rendering template within layouts/store
+Rendering home/index
+  [4;35;1mProduct Load (0.2ms)[0m   [0mSELECT * FROM "products" WHERE ((stock > 0) AND ("products"."front" = 't')) [0m
+  [4;36;1mPaymentMethod Load (0.1ms)[0m   [0;1mSELECT * FROM "payment_methods" WHERE ("payment_methods"."active" = 't') [0m
+  [4;35;1mSQL (0.2ms)[0m   [0mSELECT sum("order_items".quantity) AS sum_quantity FROM "order_items" WHERE ("order_items".order_id = 996332878) [0m
+Completed in 11ms (View: 4, DB: 3) | 200 OK [http://test.host/]
+  [4;36;1mProduct Exists (0.2ms)[0m   [0;1mSELECT "products".id FROM "products" WHERE ("products"."name" = 'front 0') LIMIT 1[0m
+  [4;35;1mProduct Create (0.3ms)[0m   [0mINSERT INTO "products" ("name", "updated_at", "price", "front", "stock", "description", "created_at") VALUES('front 0', '2010-06-24 01:27:17', 1.0, 't', 1, 'nonononononononononononononononononononononononono', '2010-06-24 01:27:17')[0m
+  [4;36;1mProduct Exists (0.1ms)[0m   [0;1mSELECT "products".id FROM "products" WHERE ("products"."name" = 'front 1') LIMIT 1[0m
+  [4;35;1mProduct Create (0.1ms)[0m   [0mINSERT INTO "products" ("name", "updated_at", "price", "front", "stock", "description", "created_at") VALUES('front 1', '2010-06-24 01:27:17', 1.0, 't', 1, 'nonononononononononononononononononononononononono', '2010-06-24 01:27:17')[0m
+  [4;36;1mProduct Exists (0.1ms)[0m   [0;1mSELECT "products".id FROM "products" WHERE ("products"."name" = 'front 2') LIMIT 1[0m
+  [4;35;1mProduct Create (0.1ms)[0m   [0mINSERT INTO "products" ("name", "updated_at", "price", "front", "stock", "description", "created_at") VALUES('front 2', '2010-06-24 01:27:17', 1.0, 't', 1, 'nonononononononononononononononononononononononono', '2010-06-24 01:27:17')[0m
+  [4;36;1mProduct Exists (0.1ms)[0m   [0;1mSELECT "products".id FROM "products" WHERE ("products"."name" = 'front 3') LIMIT 1[0m
+  [4;35;1mProduct Create (0.1ms)[0m   [0mINSERT INTO "products" ("name", "updated_at", "price", "front", "stock", "description", "created_at") VALUES('front 3', '2010-06-24 01:27:17', 1.0, 't', 1, 'nonononononononononononononononononononononononono', '2010-06-24 01:27:17')[0m
+  [4;36;1mProduct Exists (0.1ms)[0m   [0;1mSELECT "products".id FROM "products" WHERE ("products"."name" = 'front 4') LIMIT 1[0m
+  [4;35;1mProduct Create (0.1ms)[0m   [0mINSERT INTO "products" ("name", "updated_at", "price", "front", "stock", "description", "created_at") VALUES('front 4', '2010-06-24 01:27:17', 1.0, 't', 1, 'nonononononononononononononononononononononononono', '2010-06-24 01:27:17')[0m
+
+
+Processing HomeController#index (for 0.0.0.0 at 2010-06-23 22:27:17) [GET]
+  [4;36;1mOrder Create (0.2ms)[0m   [0;1mINSERT INTO "orders" ("status", "updated_at", "total", "user_id", "created_at") VALUES(NULL, '2010-06-24 01:27:17', NULL, NULL, '2010-06-24 01:27:17')[0m
+Rendering template within layouts/store
+Rendering home/index
+  [4;35;1mProduct Load (0.8ms)[0m   [0mSELECT * FROM "products" WHERE ((stock > 0) AND ("products"."front" = 't')) [0m
+  [4;36;1mPaymentMethod Load (0.2ms)[0m   [0;1mSELECT * FROM "payment_methods" WHERE ("payment_methods"."active" = 't') [0m
+  [4;35;1mSQL (0.2ms)[0m   [0mSELECT sum("order_items".quantity) AS sum_quantity FROM "order_items" WHERE ("order_items".order_id = 996332878) [0m
+Completed in 150ms (View: 148, DB: 1) | 200 OK [http://test.host/]
+
+
+Processing HomeController#index (for 0.0.0.0 at 2010-06-23 22:30:43) [GET]
+  [4;36;1mOrder Create (0.5ms)[0m   [0;1mINSERT INTO "orders" ("status", "updated_at", "total", "user_id", "created_at") VALUES(NULL, '2010-06-24 01:30:43', NULL, NULL, '2010-06-24 01:30:43')[0m
+Rendering template within layouts/store
+Rendering home/index
+  [4;35;1mProduct Load (0.2ms)[0m   [0mSELECT * FROM "products" WHERE ((stock > 0) AND ("products"."front" = 't')) [0m
+  [4;36;1mPaymentMethod Load (0.1ms)[0m   [0;1mSELECT * FROM "payment_methods" WHERE ("payment_methods"."active" = 't') [0m
+  [4;35;1mSQL (0.2ms)[0m   [0mSELECT sum("order_items".quantity) AS sum_quantity FROM "order_items" WHERE ("order_items".order_id = 996332878) [0m
+Completed in 11ms (View: 4, DB: 3) | 200 OK [http://test.host/]
+  [4;36;1mProduct Exists (0.2ms)[0m   [0;1mSELECT "products".id FROM "products" WHERE ("products"."name" = 'front 0') LIMIT 1[0m
+  [4;35;1mProduct Create (0.4ms)[0m   [0mINSERT INTO "products" ("name", "updated_at", "price", "front", "stock", "description", "created_at") VALUES('front 0', '2010-06-24 01:30:43', 1.0, 't', 1, 'nonononononononononononononononononononononononono', '2010-06-24 01:30:43')[0m
+  [4;36;1mProduct Exists (0.1ms)[0m   [0;1mSELECT "products".id FROM "products" WHERE ("products"."name" = 'front 1') LIMIT 1[0m
+  [4;35;1mProduct Create (0.1ms)[0m   [0mINSERT INTO "products" ("name", "updated_at", "price", "front", "stock", "description", "created_at") VALUES('front 1', '2010-06-24 01:30:43', 1.0, 't', 1, 'nonononononononononononononononononononononononono', '2010-06-24 01:30:43')[0m
+  [4;36;1mProduct Exists (0.1ms)[0m   [0;1mSELECT "products".id FROM "products" WHERE ("products"."name" = 'front 2') LIMIT 1[0m
+  [4;35;1mProduct Create (0.1ms)[0m   [0mINSERT INTO "products" ("name", "updated_at", "price", "front", "stock", "description", "created_at") VALUES('front 2', '2010-06-24 01:30:43', 1.0, 't', 1, 'nonononononononononononononononononononononononono', '2010-06-24 01:30:43')[0m
+  [4;36;1mProduct Exists (0.2ms)[0m   [0;1mSELECT "products".id FROM "products" WHERE ("products"."name" = 'front 3') LIMIT 1[0m
+  [4;35;1mProduct Create (0.1ms)[0m   [0mINSERT INTO "products" ("name", "updated_at", "price", "front", "stock", "description", "created_at") VALUES('front 3', '2010-06-24 01:30:43', 1.0, 't', 1, 'nonononononononononononononononononononononononono', '2010-06-24 01:30:43')[0m
+  [4;36;1mProduct Exists (0.1ms)[0m   [0;1mSELECT "products".id FROM "products" WHERE ("products"."name" = 'front 4') LIMIT 1[0m
+  [4;35;1mProduct Create (0.1ms)[0m   [0mINSERT INTO "products" ("name", "updated_at", "price", "front", "stock", "description", "created_at") VALUES('front 4', '2010-06-24 01:30:43', 1.0, 't', 1, 'nonononononononononononononononononononononononono', '2010-06-24 01:30:43')[0m
+
+
+Processing HomeController#index (for 0.0.0.0 at 2010-06-23 22:30:43) [GET]
+  [4;36;1mOrder Create (0.2ms)[0m   [0;1mINSERT INTO "orders" ("status", "updated_at", "total", "user_id", "created_at") VALUES(NULL, '2010-06-24 01:30:43', NULL, NULL, '2010-06-24 01:30:43')[0m
+Rendering template within layouts/store
+Rendering home/index
+  [4;35;1mProduct Load (1.1ms)[0m   [0mSELECT * FROM "products" WHERE ((stock > 0) AND ("products"."front" = 't')) [0m
+  [4;36;1mPaymentMethod Load (0.2ms)[0m   [0;1mSELECT * FROM "payment_methods" WHERE ("payment_methods"."active" = 't') [0m
+  [4;35;1mSQL (0.2ms)[0m   [0mSELECT sum("order_items".quantity) AS sum_quantity FROM "order_items" WHERE ("order_items".order_id = 996332878) [0m
+Completed in 154ms (View: 152, DB: 2) | 200 OK [http://test.host/]
+
+
+Processing HomeController#index (for 0.0.0.0 at 2010-06-23 22:31:24) [GET]
+  [4;36;1mOrder Create (0.5ms)[0m   [0;1mINSERT INTO "orders" ("status", "updated_at", "total", "user_id", "created_at") VALUES(NULL, '2010-06-24 01:31:24', NULL, NULL, '2010-06-24 01:31:24')[0m
+Rendering template within layouts/store
+Rendering home/index
+  [4;35;1mProduct Load (0.2ms)[0m   [0mSELECT * FROM "products" WHERE ((stock > 0) AND ("products"."front" = 't')) [0m
+  [4;36;1mPaymentMethod Load (0.1ms)[0m   [0;1mSELECT * FROM "payment_methods" WHERE ("payment_methods"."active" = 't') [0m
+  [4;35;1mSQL (0.3ms)[0m   [0mSELECT sum("order_items".quantity) AS sum_quantity FROM "order_items" WHERE ("order_items".order_id = 996332878) [0m
+Completed in 10ms (View: 5, DB: 3) | 200 OK [http://test.host/]
+  [4;36;1mProduct Exists (0.2ms)[0m   [0;1mSELECT "products".id FROM "products" WHERE ("products"."name" = 'front 0') LIMIT 1[0m
+  [4;35;1mProduct Create (0.3ms)[0m   [0mINSERT INTO "products" ("name", "updated_at", "price", "front", "stock", "description", "created_at") VALUES('front 0', '2010-06-24 01:31:24', 1.0, 't', 1, 'nonononononononononononononononononononononononono', '2010-06-24 01:31:24')[0m
+  [4;36;1mProduct Exists (0.1ms)[0m   [0;1mSELECT "products".id FROM "products" WHERE ("products"."name" = 'front 1') LIMIT 1[0m
+  [4;35;1mProduct Create (0.1ms)[0m   [0mINSERT INTO "products" ("name", "updated_at", "price", "front", "stock", "description", "created_at") VALUES('front 1', '2010-06-24 01:31:24', 1.0, 't', 1, 'nonononononononononononononononononononononononono', '2010-06-24 01:31:24')[0m
+  [4;36;1mProduct Exists (0.1ms)[0m   [0;1mSELECT "products".id FROM "products" WHERE ("products"."name" = 'front 2') LIMIT 1[0m
+  [4;35;1mProduct Create (0.1ms)[0m   [0mINSERT INTO "products" ("name", "updated_at", "price", "front", "stock", "description", "created_at") VALUES('front 2', '2010-06-24 01:31:24', 1.0, 't', 1, 'nonononononononononononononononononononononononono', '2010-06-24 01:31:24')[0m
+  [4;36;1mProduct Exists (0.1ms)[0m   [0;1mSELECT "products".id FROM "products" WHERE ("products"."name" = 'front 3') LIMIT 1[0m
+  [4;35;1mProduct Create (0.1ms)[0m   [0mINSERT INTO "products" ("name", "updated_at", "price", "front", "stock", "description", "created_at") VALUES('front 3', '2010-06-24 01:31:24', 1.0, 't', 1, 'nonononononononononononononononononononononononono', '2010-06-24 01:31:24')[0m
+  [4;36;1mProduct Exists (0.1ms)[0m   [0;1mSELECT "products".id FROM "products" WHERE ("products"."name" = 'front 4') LIMIT 1[0m
+  [4;35;1mProduct Create (0.1ms)[0m   [0mINSERT INTO "products" ("name", "updated_at", "price", "front", "stock", "description", "created_at") VALUES('front 4', '2010-06-24 01:31:24', 1.0, 't', 1, 'nonononononononononononononononononononononononono', '2010-06-24 01:31:24')[0m
+
+
+Processing HomeController#index (for 0.0.0.0 at 2010-06-23 22:31:24) [GET]
+  [4;36;1mOrder Create (0.2ms)[0m   [0;1mINSERT INTO "orders" ("status", "updated_at", "total", "user_id", "created_at") VALUES(NULL, '2010-06-24 01:31:24', NULL, NULL, '2010-06-24 01:31:24')[0m
+Rendering template within layouts/store
+Rendering home/index
+  [4;35;1mProduct Load (0.8ms)[0m   [0mSELECT * FROM "products" WHERE ((stock > 0) AND ("products"."front" = 't')) [0m
+  [4;36;1mPaymentMethod Load (0.2ms)[0m   [0;1mSELECT * FROM "payment_methods" WHERE ("payment_methods"."active" = 't') [0m
+  [4;35;1mSQL (0.2ms)[0m   [0mSELECT sum("order_items".quantity) AS sum_quantity FROM "order_items" WHERE ("order_items".order_id = 996332878) [0m
+Completed in 152ms (View: 150, DB: 1) | 200 OK [http://test.host/]
+
+
+Processing HomeController#index (for 0.0.0.0 at 2010-06-23 22:32:54) [GET]
+  [4;36;1mOrder Create (0.5ms)[0m   [0;1mINSERT INTO "orders" ("status", "updated_at", "total", "user_id", "created_at") VALUES(NULL, '2010-06-24 01:32:54', NULL, NULL, '2010-06-24 01:32:54')[0m
+Rendering template within layouts/store
+Rendering home/index
+  [4;35;1mProduct Load (0.3ms)[0m   [0mSELECT * FROM "products" WHERE ((stock > 0) AND ("products"."front" = 't')) [0m
+  [4;36;1mPaymentMethod Load (0.1ms)[0m   [0;1mSELECT * FROM "payment_methods" WHERE ("payment_methods"."active" = 't') [0m
+  [4;35;1mSQL (0.2ms)[0m   [0mSELECT sum("order_items".quantity) AS sum_quantity FROM "order_items" WHERE ("order_items".order_id = 996332878) [0m
+Completed in 15ms (View: 8, DB: 3) | 200 OK [http://test.host/]
+  [4;36;1mProduct Exists (0.2ms)[0m   [0;1mSELECT "products".id FROM "products" WHERE ("products"."name" = 'front 0') LIMIT 1[0m
+  [4;35;1mProduct Create (0.3ms)[0m   [0mINSERT INTO "products" ("name", "updated_at", "price", "front", "stock", "description", "created_at") VALUES('front 0', '2010-06-24 01:32:54', 1.0, 't', 1, 'nonononononononononononononononononononononononono', '2010-06-24 01:32:54')[0m
+  [4;36;1mProduct Exists (0.1ms)[0m   [0;1mSELECT "products".id FROM "products" WHERE ("products"."name" = 'front 1') LIMIT 1[0m
+  [4;35;1mProduct Create (0.1ms)[0m   [0mINSERT INTO "products" ("name", "updated_at", "price", "front", "stock", "description", "created_at") VALUES('front 1', '2010-06-24 01:32:54', 1.0, 't', 1, 'nonononononononononononononononononononononononono', '2010-06-24 01:32:54')[0m
+  [4;36;1mProduct Exists (0.1ms)[0m   [0;1mSELECT "products".id FROM "products" WHERE ("products"."name" = 'front 2') LIMIT 1[0m
+  [4;35;1mProduct Create (0.1ms)[0m   [0mINSERT INTO "products" ("name", "updated_at", "price", "front", "stock", "description", "created_at") VALUES('front 2', '2010-06-24 01:32:54', 1.0, 't', 1, 'nonononononononononononononononononononononononono', '2010-06-24 01:32:54')[0m
+  [4;36;1mProduct Exists (0.1ms)[0m   [0;1mSELECT "products".id FROM "products" WHERE ("products"."name" = 'front 3') LIMIT 1[0m
+  [4;35;1mProduct Create (0.1ms)[0m   [0mINSERT INTO "products" ("name", "updated_at", "price", "front", "stock", "description", "created_at") VALUES('front 3', '2010-06-24 01:32:54', 1.0, 't', 1, 'nonononononononononononononononononononononononono', '2010-06-24 01:32:54')[0m
+  [4;36;1mProduct Exists (0.1ms)[0m   [0;1mSELECT "products".id FROM "products" WHERE ("products"."name" = 'front 4') LIMIT 1[0m
+  [4;35;1mProduct Create (0.1ms)[0m   [0mINSERT INTO "products" ("name", "updated_at", "price", "front", "stock", "description", "created_at") VALUES('front 4', '2010-06-24 01:32:54', 1.0, 't', 1, 'nonononononononononononononononononononononononono', '2010-06-24 01:32:54')[0m
+
+
+Processing HomeController#index (for 0.0.0.0 at 2010-06-23 22:32:54) [GET]
+  [4;36;1mOrder Create (0.1ms)[0m   [0;1mINSERT INTO "orders" ("status", "updated_at", "total", "user_id", "created_at") VALUES(NULL, '2010-06-24 01:32:54', NULL, NULL, '2010-06-24 01:32:54')[0m
+Rendering template within layouts/store
+Rendering home/index
+  [4;35;1mProduct Load (0.8ms)[0m   [0mSELECT * FROM "products" WHERE ((stock > 0) AND ("products"."front" = 't')) [0m
+  [4;36;1mPaymentMethod Load (0.2ms)[0m   [0;1mSELECT * FROM "payment_methods" WHERE ("payment_methods"."active" = 't') [0m
+  [4;35;1mSQL (0.2ms)[0m   [0mSELECT sum("order_items".quantity) AS sum_quantity FROM "order_items" WHERE ("order_items".order_id = 996332878) [0m
+Completed in 152ms (View: 150, DB: 1) | 200 OK [http://test.host/]
+
+
+Processing HomeController#index (for 0.0.0.0 at 2010-06-23 22:33:55) [GET]
+  [4;36;1mOrder Create (0.6ms)[0m   [0;1mINSERT INTO "orders" ("status", "updated_at", "total", "user_id", "created_at") VALUES(NULL, '2010-06-24 01:33:55', NULL, NULL, '2010-06-24 01:33:55')[0m
+Rendering template within layouts/store
+Rendering home/index
+  [4;35;1mProduct Load (0.2ms)[0m   [0mSELECT * FROM "products" WHERE ((stock > 0) AND ("products"."front" = 't')) [0m
+  [4;36;1mPaymentMethod Load (0.2ms)[0m   [0;1mSELECT * FROM "payment_methods" WHERE ("payment_methods"."active" = 't') [0m
+  [4;35;1mSQL (0.3ms)[0m   [0mSELECT sum("order_items".quantity) AS sum_quantity FROM "order_items" WHERE ("order_items".order_id = 996332878) [0m
+Completed in 12ms (View: 6, DB: 3) | 200 OK [http://test.host/]
+  [4;36;1mProduct Exists (0.2ms)[0m   [0;1mSELECT "products".id FROM "products" WHERE ("products"."name" = 'front 0') LIMIT 1[0m
+  [4;35;1mProduct Create (0.3ms)[0m   [0mINSERT INTO "products" ("name", "updated_at", "price", "front", "stock", "description", "created_at") VALUES('front 0', '2010-06-24 01:33:55', 1.0, 't', 1, 'nonononononononononononononononononononononononono', '2010-06-24 01:33:55')[0m
+  [4;36;1mProduct Exists (0.1ms)[0m   [0;1mSELECT "products".id FROM "products" WHERE ("products"."name" = 'front 1') LIMIT 1[0m
+  [4;35;1mProduct Create (0.1ms)[0m   [0mINSERT INTO "products" ("name", "updated_at", "price", "front", "stock", "description", "created_at") VALUES('front 1', '2010-06-24 01:33:55', 1.0, 't', 1, 'nonononononononononononononononononononononononono', '2010-06-24 01:33:55')[0m
+  [4;36;1mProduct Exists (0.1ms)[0m   [0;1mSELECT "products".id FROM "products" WHERE ("products"."name" = 'front 2') LIMIT 1[0m
+  [4;35;1mProduct Create (0.1ms)[0m   [0mINSERT INTO "products" ("name", "updated_at", "price", "front", "stock", "description", "created_at") VALUES('front 2', '2010-06-24 01:33:55', 1.0, 't', 1, 'nonononononononononononononononononononononononono', '2010-06-24 01:33:55')[0m
+  [4;36;1mProduct Exists (0.1ms)[0m   [0;1mSELECT "products".id FROM "products" WHERE ("products"."name" = 'front 3') LIMIT 1[0m
+  [4;35;1mProduct Create (0.1ms)[0m   [0mINSERT INTO "products" ("name", "updated_at", "price", "front", "stock", "description", "created_at") VALUES('front 3', '2010-06-24 01:33:55', 1.0, 't', 1, 'nonononononononononononononononononononononononono', '2010-06-24 01:33:55')[0m
+  [4;36;1mProduct Exists (0.1ms)[0m   [0;1mSELECT "products".id FROM "products" WHERE ("products"."name" = 'front 4') LIMIT 1[0m
+  [4;35;1mProduct Create (0.1ms)[0m   [0mINSERT INTO "products" ("name", "updated_at", "price", "front", "stock", "description", "created_at") VALUES('front 4', '2010-06-24 01:33:55', 1.0, 't', 1, 'nonononononononononononononononononononononononono', '2010-06-24 01:33:55')[0m
+
+
+Processing HomeController#index (for 0.0.0.0 at 2010-06-23 22:33:55) [GET]
+  [4;36;1mOrder Create (0.2ms)[0m   [0;1mINSERT INTO "orders" ("status", "updated_at", "total", "user_id", "created_at") VALUES(NULL, '2010-06-24 01:33:55', NULL, NULL, '2010-06-24 01:33:55')[0m
+Rendering template within layouts/store
+Rendering home/index
+  [4;35;1mProduct Load (0.8ms)[0m   [0mSELECT * FROM "products" WHERE ((stock > 0) AND ("products"."front" = 't')) [0m
+  [4;36;1mPaymentMethod Load (0.2ms)[0m   [0;1mSELECT * FROM "payment_methods" WHERE ("payment_methods"."active" = 't') [0m
+  [4;35;1mSQL (0.2ms)[0m   [0mSELECT sum("order_items".quantity) AS sum_quantity FROM "order_items" WHERE ("order_items".order_id = 996332878) [0m
+Completed in 152ms (View: 151, DB: 1) | 200 OK [http://test.host/]
+  [4;36;1mProduct Exists (0.2ms)[0m   [0;1mSELECT "products".id FROM "products" WHERE ("products"."name" IS NULL) LIMIT 1[0m
+  [4;35;1mProduct Exists (0.1ms)[0m   [0mSELECT "products".id FROM "products" WHERE ("products"."name" IS NULL) LIMIT 1[0m
+  [4;36;1mProduct Exists (0.2ms)[0m   [0;1mSELECT "products".id FROM "products" WHERE ("products"."name" = 'front 0') LIMIT 1[0m
+  [4;35;1mProduct Create (0.4ms)[0m   [0mINSERT INTO "products" ("name", "updated_at", "price", "front", "stock", "description", "created_at") VALUES('front 0', '2010-06-24 01:40:06', 1.0, 't', 1, 'nonononononononononononononononononononononononono', '2010-06-24 01:40:06')[0m
+  [4;36;1mProduct Exists (0.1ms)[0m   [0;1mSELECT "products".id FROM "products" WHERE ("products"."name" = 'front 1') LIMIT 1[0m
+  [4;35;1mProduct Create (0.1ms)[0m   [0mINSERT INTO "products" ("name", "updated_at", "price", "front", "stock", "description", "created_at") VALUES('front 1', '2010-06-24 01:40:06', 1.0, 't', 1, 'nonononononononononononononononononononononononono', '2010-06-24 01:40:06')[0m
+  [4;36;1mProduct Exists (0.1ms)[0m   [0;1mSELECT "products".id FROM "products" WHERE ("products"."name" = 'front 2') LIMIT 1[0m
+  [4;35;1mProduct Create (0.1ms)[0m   [0mINSERT INTO "products" ("name", "updated_at", "price", "front", "stock", "description", "created_at") VALUES('front 2', '2010-06-24 01:40:06', 1.0, 't', 1, 'nonononononononononononononononononononononononono', '2010-06-24 01:40:06')[0m
+  [4;36;1mProduct Exists (0.1ms)[0m   [0;1mSELECT "products".id FROM "products" WHERE ("products"."name" = 'front 3') LIMIT 1[0m
+  [4;35;1mProduct Create (0.1ms)[0m   [0mINSERT INTO "products" ("name", "updated_at", "price", "front", "stock", "description", "created_at") VALUES('front 3', '2010-06-24 01:40:06', 1.0, 't', 1, 'nonononononononononononononononononononononononono', '2010-06-24 01:40:06')[0m
+  [4;36;1mProduct Exists (0.1ms)[0m   [0;1mSELECT "products".id FROM "products" WHERE ("products"."name" = 'front 4') LIMIT 1[0m
+  [4;35;1mProduct Create (0.1ms)[0m   [0mINSERT INTO "products" ("name", "updated_at", "price", "front", "stock", "description", "created_at") VALUES('front 4', '2010-06-24 01:40:06', 1.0, 't', 1, 'nonononononononononononononononononononononononono', '2010-06-24 01:40:06')[0m
+  [4;36;1mProduct Exists (0.1ms)[0m   [0;1mSELECT "products".id FROM "products" WHERE ("products"."name" = 'not front 0') LIMIT 1[0m
+  [4;35;1mProduct Create (0.1ms)[0m   [0mINSERT INTO "products" ("name", "updated_at", "price", "front", "stock", "description", "created_at") VALUES('not front 0', '2010-06-24 01:40:06', 1.0, 'f', 1, 'nonononononononononononononononononononononononono', '2010-06-24 01:40:06')[0m
+  [4;36;1mProduct Exists (0.8ms)[0m   [0;1mSELECT "products".id FROM "products" WHERE ("products"."name" = 'not front 1') LIMIT 1[0m
+  [4;35;1mProduct Create (0.1ms)[0m   [0mINSERT INTO "products" ("name", "updated_at", "price", "front", "stock", "description", "created_at") VALUES('not front 1', '2010-06-24 01:40:06', 1.0, 'f', 1, 'nonononononononononononononononononononononononono', '2010-06-24 01:40:06')[0m
+  [4;36;1mProduct Exists (0.1ms)[0m   [0;1mSELECT "products".id FROM "products" WHERE ("products"."name" = 'not front 2') LIMIT 1[0m
+  [4;35;1mProduct Create (0.1ms)[0m   [0mINSERT INTO "products" ("name", "updated_at", "price", "front", "stock", "description", "created_at") VALUES('not front 2', '2010-06-24 01:40:06', 1.0, 'f', 1, 'nonononononononononononononononononononononononono', '2010-06-24 01:40:06')[0m
+  [4;36;1mProduct Exists (0.1ms)[0m   [0;1mSELECT "products".id FROM "products" WHERE ("products"."name" = 'not front 3') LIMIT 1[0m
+  [4;35;1mProduct Create (0.1ms)[0m   [0mINSERT INTO "products" ("name", "updated_at", "price", "front", "stock", "description", "created_at") VALUES('not front 3', '2010-06-24 01:40:06', 1.0, 'f', 1, 'nonononononononononononononononononononononononono', '2010-06-24 01:40:06')[0m
+  [4;36;1mProduct Exists (0.1ms)[0m   [0;1mSELECT "products".id FROM "products" WHERE ("products"."name" = 'not front 4') LIMIT 1[0m
+  [4;35;1mProduct Create (0.1ms)[0m   [0mINSERT INTO "products" ("name", "updated_at", "price", "front", "stock", "description", "created_at") VALUES('not front 4', '2010-06-24 01:40:06', 1.0, 'f', 1, 'nonononononononononononononononononononononononono', '2010-06-24 01:40:06')[0m
+  [4;36;1mSQL (0.2ms)[0m   [0;1mSELECT count(*) AS count_all FROM "products" [0m
+  [4;35;1mProduct Load (0.7ms)[0m   [0mSELECT * FROM "products" WHERE ("products"."front" = 't') [0m
+  [4;36;1mProduct Exists (0.1ms)[0m   [0;1mSELECT "products".id FROM "products" WHERE ("products"."name" = 'Foo Bar Baz') LIMIT 1[0m
+  [4;35;1mProduct Create (0.3ms)[0m   [0mINSERT INTO "products" ("name", "updated_at", "price", "front", "stock", "description", "created_at") VALUES('Foo Bar Baz', '2010-06-24 01:40:06', 1.0, 'f', 1, 'nonononononononononononononononononononononononono', '2010-06-24 01:40:06')[0m
+  [4;36;1mProduct Exists (0.6ms)[0m   [0;1mSELECT "products".id FROM "products" WHERE ("products"."name" IS NULL) LIMIT 1[0m
+  [4;35;1mProduct Exists (0.1ms)[0m   [0mSELECT "products".id FROM "products" WHERE ("products"."name" IS NULL) LIMIT 1[0m
+  [4;36;1mProduct Exists (0.1ms)[0m   [0;1mSELECT "products".id FROM "products" WHERE ("products"."name" = 'front 0') LIMIT 1[0m
+  [4;35;1mProduct Create (0.4ms)[0m   [0mINSERT INTO "products" ("name", "updated_at", "price", "front", "stock", "description", "created_at") VALUES('front 0', '2010-06-24 01:46:05', 1.0, 't', 1, 'nonononononononononononononononononononononononono', '2010-06-24 01:46:05')[0m
+  [4;36;1mProduct Exists (0.1ms)[0m   [0;1mSELECT "products".id FROM "products" WHERE ("products"."name" = 'front 1') LIMIT 1[0m
+  [4;35;1mProduct Create (0.2ms)[0m   [0mINSERT INTO "products" ("name", "updated_at", "price", "front", "stock", "description", "created_at") VALUES('front 1', '2010-06-24 01:46:05', 1.0, 't', 1, 'nonononononononononononononononononononononononono', '2010-06-24 01:46:05')[0m
+  [4;36;1mProduct Exists (0.1ms)[0m   [0;1mSELECT "products".id FROM "products" WHERE ("products"."name" = 'front 2') LIMIT 1[0m
+  [4;35;1mProduct Create (0.1ms)[0m   [0mINSERT INTO "products" ("name", "updated_at", "price", "front", "stock", "description", "created_at") VALUES('front 2', '2010-06-24 01:46:05', 1.0, 't', 1, 'nonononononononononononononononononononononononono', '2010-06-24 01:46:05')[0m
+  [4;36;1mProduct Exists (0.1ms)[0m   [0;1mSELECT "products".id FROM "products" WHERE ("products"."name" = 'front 3') LIMIT 1[0m
+  [4;35;1mProduct Create (0.1ms)[0m   [0mINSERT INTO "products" ("name", "updated_at", "price", "front", "stock", "description", "created_at") VALUES('front 3', '2010-06-24 01:46:05', 1.0, 't', 1, 'nonononononononononononononononononononononononono', '2010-06-24 01:46:05')[0m
+  [4;36;1mProduct Exists (0.1ms)[0m   [0;1mSELECT "products".id FROM "products" WHERE ("products"."name" = 'front 4') LIMIT 1[0m
+  [4;35;1mProduct Create (0.1ms)[0m   [0mINSERT INTO "products" ("name", "updated_at", "price", "front", "stock", "description", "created_at") VALUES('front 4', '2010-06-24 01:46:05', 1.0, 't', 1, 'nonononononononononononononononononononononononono', '2010-06-24 01:46:05')[0m
+  [4;36;1mProduct Exists (0.1ms)[0m   [0;1mSELECT "products".id FROM "products" WHERE ("products"."name" = 'not front 0') LIMIT 1[0m
+  [4;35;1mProduct Create (0.1ms)[0m   [0mINSERT INTO "products" ("name", "updated_at", "price", "front", "stock", "description", "created_at") VALUES('not front 0', '2010-06-24 01:46:05', 1.0, 'f', 1, 'nonononononononononononononononononononononononono', '2010-06-24 01:46:05')[0m
+  [4;36;1mProduct Exists (0.1ms)[0m   [0;1mSELECT "products".id FROM "products" WHERE ("products"."name" = 'not front 1') LIMIT 1[0m
+  [4;35;1mProduct Create (0.1ms)[0m   [0mINSERT INTO "products" ("name", "updated_at", "price", "front", "stock", "description", "created_at") VALUES('not front 1', '2010-06-24 01:46:05', 1.0, 'f', 1, 'nonononononononononononononononononononononononono', '2010-06-24 01:46:05')[0m
+  [4;36;1mProduct Exists (0.1ms)[0m   [0;1mSELECT "products".id FROM "products" WHERE ("products"."name" = 'not front 2') LIMIT 1[0m
+  [4;35;1mProduct Create (0.1ms)[0m   [0mINSERT INTO "products" ("name", "updated_at", "price", "front", "stock", "description", "created_at") VALUES('not front 2', '2010-06-24 01:46:05', 1.0, 'f', 1, 'nonononononononononononononononononononononononono', '2010-06-24 01:46:05')[0m
+  [4;36;1mProduct Exists (0.1ms)[0m   [0;1mSELECT "products".id FROM "products" WHERE ("products"."name" = 'not front 3') LIMIT 1[0m
+  [4;35;1mProduct Create (0.1ms)[0m   [0mINSERT INTO "products" ("name", "updated_at", "price", "front", "stock", "description", "created_at") VALUES('not front 3', '2010-06-24 01:46:05', 1.0, 'f', 1, 'nonononononononononononononononononononononononono', '2010-06-24 01:46:05')[0m
+  [4;36;1mProduct Exists (0.1ms)[0m   [0;1mSELECT "products".id FROM "products" WHERE ("products"."name" = 'not front 4') LIMIT 1[0m
+  [4;35;1mProduct Create (0.1ms)[0m   [0mINSERT INTO "products" ("name", "updated_at", "price", "front", "stock", "description", "created_at") VALUES('not front 4', '2010-06-24 01:46:05', 1.0, 'f', 1, 'nonononononononononononononononononononononononono', '2010-06-24 01:46:05')[0m
+  [4;36;1mSQL (0.2ms)[0m   [0;1mSELECT count(*) AS count_all FROM "products" [0m
+  [4;35;1mSQL (0.1ms)[0m   [0mSELECT count(*) AS count_all FROM "products" WHERE ("products"."front" = 't') [0m
+  [4;36;1mProduct Load (0.7ms)[0m   [0;1mSELECT * FROM "products" WHERE ("products"."front" = 't') [0m
+  [4;35;1mProduct Exists (0.1ms)[0m   [0mSELECT "products".id FROM "products" WHERE ("products"."name" = 'Foo Bar Baz') LIMIT 1[0m
+  [4;36;1mProduct Create (0.3ms)[0m   [0;1mINSERT INTO "products" ("name", "updated_at", "price", "front", "stock", "description", "created_at") VALUES('Foo Bar Baz', '2010-06-24 01:46:05', 1.0, 'f', 1, 'nonononononononononononononononononononononononono', '2010-06-24 01:46:05')[0m
+  [4;36;1mAddress Create (0.5ms)[0m   [0;1mINSERT INTO "addresses" ("city", "zip", "updated_at", "number", "street", "user_id", "state", "created_at") VALUES('city', '12345-123', '2010-06-24 01:51:25', '123', 'street', NULL, 'state', '2010-06-24 01:51:25')[0m
+  [4;35;1mProduct Exists (0.2ms)[0m   [0mSELECT "products".id FROM "products" WHERE ("products"."name" IS NULL) LIMIT 1[0m
+  [4;36;1mProduct Exists (0.1ms)[0m   [0;1mSELECT "products".id FROM "products" WHERE ("products"."name" IS NULL) LIMIT 1[0m
+  [4;35;1mProduct Exists (0.1ms)[0m   [0mSELECT "products".id FROM "products" WHERE ("products"."name" = 'front 0') LIMIT 1[0m
+  [4;36;1mProduct Create (0.3ms)[0m   [0;1mINSERT INTO "products" ("name", "updated_at", "price", "front", "stock", "description", "created_at") VALUES('front 0', '2010-06-24 01:51:25', 1.0, 't', 1, 'nonononononononononononononononononononononononono', '2010-06-24 01:51:25')[0m
+  [4;35;1mProduct Exists (0.1ms)[0m   [0mSELECT "products".id FROM "products" WHERE ("products"."name" = 'front 1') LIMIT 1[0m
+  [4;36;1mProduct Create (0.1ms)[0m   [0;1mINSERT INTO "products" ("name", "updated_at", "price", "front", "stock", "description", "created_at") VALUES('front 1', '2010-06-24 01:51:25', 1.0, 't', 1, 'nonononononononononononononononononononononononono', '2010-06-24 01:51:25')[0m
+  [4;35;1mProduct Exists (0.1ms)[0m   [0mSELECT "products".id FROM "products" WHERE ("products"."name" = 'front 2') LIMIT 1[0m
+  [4;36;1mProduct Create (0.1ms)[0m   [0;1mINSERT INTO "products" ("name", "updated_at", "price", "front", "stock", "description", "created_at") VALUES('front 2', '2010-06-24 01:51:25', 1.0, 't', 1, 'nonononononononononononononononononononononononono', '2010-06-24 01:51:25')[0m
+  [4;35;1mProduct Exists (0.1ms)[0m   [0mSELECT "products".id FROM "products" WHERE ("products"."name" = 'front 3') LIMIT 1[0m
+  [4;36;1mProduct Create (0.1ms)[0m   [0;1mINSERT INTO "products" ("name", "updated_at", "price", "front", "stock", "description", "created_at") VALUES('front 3', '2010-06-24 01:51:25', 1.0, 't', 1, 'nonononononononononononononononononononononononono', '2010-06-24 01:51:25')[0m
+  [4;35;1mProduct Exists (0.1ms)[0m   [0mSELECT "products".id FROM "products" WHERE ("products"."name" = 'front 4') LIMIT 1[0m
+  [4;36;1mProduct Create (0.1ms)[0m   [0;1mINSERT INTO "products" ("name", "updated_at", "price", "front", "stock", "description", "created_at") VALUES('front 4', '2010-06-24 01:51:25', 1.0, 't', 1, 'nonononononononononononononononononononononononono', '2010-06-24 01:51:25')[0m
+  [4;35;1mProduct Exists (0.1ms)[0m   [0mSELECT "products".id FROM "products" WHERE ("products"."name" = 'not front 0') LIMIT 1[0m
+  [4;36;1mProduct Create (0.1ms)[0m   [0;1mINSERT INTO "products" ("name", "updated_at", "price", "front", "stock", "description", "created_at") VALUES('not front 0', '2010-06-24 01:51:25', 1.0, 'f', 1, 'nonononononononononononononononononononononononono', '2010-06-24 01:51:25')[0m
+  [4;35;1mProduct Exists (0.1ms)[0m   [0mSELECT "products".id FROM "products" WHERE ("products"."name" = 'not front 1') LIMIT 1[0m
+  [4;36;1mProduct Create (0.6ms)[0m   [0;1mINSERT INTO "products" ("name", "updated_at", "price", "front", "stock", "description", "created_at") VALUES('not front 1', '2010-06-24 01:51:25', 1.0, 'f', 1, 'nonononononononononononononononononononononononono', '2010-06-24 01:51:25')[0m
+  [4;35;1mProduct Exists (0.1ms)[0m   [0mSELECT "products".id FROM "products" WHERE ("products"."name" = 'not front 2') LIMIT 1[0m
+  [4;36;1mProduct Create (0.1ms)[0m   [0;1mINSERT INTO "products" ("name", "updated_at", "price", "front", "stock", "description", "created_at") VALUES('not front 2', '2010-06-24 01:51:25', 1.0, 'f', 1, 'nonononononononononononononononononononononononono', '2010-06-24 01:51:25')[0m
+  [4;35;1mProduct Exists (0.1ms)[0m   [0mSELECT "products".id FROM "products" WHERE ("products"."name" = 'not front 3') LIMIT 1[0m
+  [4;36;1mProduct Create (0.1ms)[0m   [0;1mINSERT INTO "products" ("name", "updated_at", "price", "front", "stock", "description", "created_at") VALUES('not front 3', '2010-06-24 01:51:25', 1.0, 'f', 1, 'nonononononononononononononononononononononononono', '2010-06-24 01:51:25')[0m
+  [4;35;1mProduct Exists (0.1ms)[0m   [0mSELECT "products".id FROM "products" WHERE ("products"."name" = 'not front 4') LIMIT 1[0m
+  [4;36;1mProduct Create (0.1ms)[0m   [0;1mINSERT INTO "products" ("name", "updated_at", "price", "front", "stock", "description", "created_at") VALUES('not front 4', '2010-06-24 01:51:25', 1.0, 'f', 1, 'nonononononononononononononononononononononononono', '2010-06-24 01:51:25')[0m
+  [4;35;1mSQL (0.2ms)[0m   [0mSELECT count(*) AS count_all FROM "products" [0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSELECT count(*) AS count_all FROM "products" WHERE ("products"."front" = 't') [0m
+  [4;35;1mProduct Load (0.7ms)[0m   [0mSELECT * FROM "products" WHERE ("products"."front" = 't') [0m
+  [4;36;1mProduct Exists (0.1ms)[0m   [0;1mSELECT "products".id FROM "products" WHERE ("products"."name" = 'Foo Bar Baz') LIMIT 1[0m
+  [4;35;1mProduct Create (0.3ms)[0m   [0mINSERT INTO "products" ("name", "updated_at", "price", "front", "stock", "description", "created_at") VALUES('Foo Bar Baz', '2010-06-24 01:51:25', 1.0, 'f', 1, 'nonononononononononononononononononononononononono', '2010-06-24 01:51:25')[0m

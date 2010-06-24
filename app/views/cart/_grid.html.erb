@@ -2,17 +2,16 @@
   <tr>
     <th>Produto</th>
     <th>Qtd</th>
-    <th>Total</th>
+    <th>Preço</th>
     <th>Ações</th>
   </tr>
   <% for item in @order.order_items %>
   <tr>
     <td><%= item.product.name %></td>
     <td>
-	  <input type="text" neme="item[<%= item.id %>]" size="5" value="<%= item.quantity %>"/>
-      <%= item.quantity %>
+	  <input type="text" name="item[<%= item.id %>]" size="5" value="<%= item.quantity %>"/>
     </td>
-    <td><%= item.total %></td>
+    <td><%= item.product.price %></td>
     <td><%= link_to 'Excluir', :action => :remove, :id => item %></td>
   </tr>
   <% end %>
