@@ -5,6 +5,9 @@ class Product < ActiveRecord::Base
 	
 	PS.: Comentários de bloco não podem ser identados
 =end
+
+  has_many :comments
+  has_many :users, :through => :comments
 	
   validates_presence_of		:name, :price,						# Valida a presença dos valores (:name, :price)				
 							:message => 'Não está preenchido'	# Atribui o param mensagem a ambos
@@ -28,6 +31,6 @@ class Product < ActiveRecord::Base
 			  :conditions => 'stock > 0'
 			  
   def to_param
-	"#{id}-#{name.parameterize}"
+	  "#{id}-#{name.parameterize}"
   end
 end

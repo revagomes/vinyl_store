@@ -1742,3 +1742,662 @@ Rendering cart/index
 Rendered cart/_grid (4.1ms)
   [4;36;1mSQL (0.2ms)[0m   [0;1mSELECT sum("order_items".quantity) AS sum_quantity FROM "order_items" WHERE ("order_items".order_id = 1) [0m
 Completed in 7ms (View: 6, DB: 0) | 200 OK [http://www.example.com/cart]
+
+
+Processing HomeController#index (for 0.0.0.0 at 2010-06-24 22:04:12) [GET]
+  Parameters: {"action"=>"index", "controller"=>"home"}
+  [4;36;1mOrder Create (0.5ms)[0m   [0;1mINSERT INTO "orders" ("status", "updated_at", "total", "user_id", "created_at") VALUES(NULL, '2010-06-25 01:04:12', NULL, NULL, '2010-06-25 01:04:12')[0m
+Rendering template within layouts/store
+Rendering home/index
+  [4;35;1mProduct Load (0.2ms)[0m   [0mSELECT * FROM "products" WHERE ((stock > 0) AND ("products"."front" = 't')) [0m
+  [4;36;1mPaymentMethod Load (0.1ms)[0m   [0;1mSELECT * FROM "payment_methods" WHERE ("payment_methods"."active" = 't') [0m
+  [4;35;1mSQL (0.2ms)[0m   [0mSELECT sum("order_items".quantity) AS sum_quantity FROM "order_items" WHERE ("order_items".order_id = 1) [0m
+Completed in 13ms (View: 4, DB: 3) | 200 OK [http://test.host/]
+  [4;36;1mProduct Exists (0.2ms)[0m   [0;1mSELECT "products".id FROM "products" WHERE ("products"."name" = 'front 0') LIMIT 1[0m
+  [4;35;1mProduct Create (0.4ms)[0m   [0mINSERT INTO "products" ("name", "updated_at", "price", "front", "stock", "description", "created_at") VALUES('front 0', '2010-06-25 01:04:12', 1.0, 't', 1, 'nonononononononononononononononononononononononono', '2010-06-25 01:04:12')[0m
+  [4;36;1mProduct Exists (0.1ms)[0m   [0;1mSELECT "products".id FROM "products" WHERE ("products"."name" = 'front 1') LIMIT 1[0m
+  [4;35;1mProduct Create (0.1ms)[0m   [0mINSERT INTO "products" ("name", "updated_at", "price", "front", "stock", "description", "created_at") VALUES('front 1', '2010-06-25 01:04:12', 1.0, 't', 1, 'nonononononononononononononononononononononononono', '2010-06-25 01:04:12')[0m
+  [4;36;1mProduct Exists (0.1ms)[0m   [0;1mSELECT "products".id FROM "products" WHERE ("products"."name" = 'front 2') LIMIT 1[0m
+  [4;35;1mProduct Create (0.1ms)[0m   [0mINSERT INTO "products" ("name", "updated_at", "price", "front", "stock", "description", "created_at") VALUES('front 2', '2010-06-25 01:04:12', 1.0, 't', 1, 'nonononononononononononononononononononononononono', '2010-06-25 01:04:12')[0m
+  [4;36;1mProduct Exists (0.1ms)[0m   [0;1mSELECT "products".id FROM "products" WHERE ("products"."name" = 'front 3') LIMIT 1[0m
+  [4;35;1mProduct Create (0.1ms)[0m   [0mINSERT INTO "products" ("name", "updated_at", "price", "front", "stock", "description", "created_at") VALUES('front 3', '2010-06-25 01:04:12', 1.0, 't', 1, 'nonononononononononononononononononononononononono', '2010-06-25 01:04:12')[0m
+  [4;36;1mProduct Exists (0.1ms)[0m   [0;1mSELECT "products".id FROM "products" WHERE ("products"."name" = 'front 4') LIMIT 1[0m
+  [4;35;1mProduct Create (0.1ms)[0m   [0mINSERT INTO "products" ("name", "updated_at", "price", "front", "stock", "description", "created_at") VALUES('front 4', '2010-06-25 01:04:12', 1.0, 't', 1, 'nonononononononononononononononononononononononono', '2010-06-25 01:04:12')[0m
+
+
+Processing HomeController#index (for 0.0.0.0 at 2010-06-24 22:04:12) [GET]
+  Parameters: {"action"=>"index", "controller"=>"home"}
+  [4;36;1mOrder Create (0.2ms)[0m   [0;1mINSERT INTO "orders" ("status", "updated_at", "total", "user_id", "created_at") VALUES(NULL, '2010-06-25 01:04:12', NULL, NULL, '2010-06-25 01:04:12')[0m
+Rendering template within layouts/store
+Rendering home/index
+  [4;35;1mProduct Load (0.9ms)[0m   [0mSELECT * FROM "products" WHERE ((stock > 0) AND ("products"."front" = 't')) [0m
+  [4;36;1mPaymentMethod Load (0.2ms)[0m   [0;1mSELECT * FROM "payment_methods" WHERE ("payment_methods"."active" = 't') [0m
+  [4;35;1mSQL (0.2ms)[0m   [0mSELECT sum("order_items".quantity) AS sum_quantity FROM "order_items" WHERE ("order_items".order_id = 1) [0m
+Completed in 151ms (View: 150, DB: 2) | 200 OK [http://test.host/]
+  [4;36;1mProduct Exists (0.1ms)[0m   [0;1mSELECT "products".id FROM "products" WHERE ("products"."name" = 'front') LIMIT 1[0m
+  [4;35;1mProduct Create (0.3ms)[0m   [0mINSERT INTO "products" ("name", "updated_at", "price", "front", "stock", "description", "created_at") VALUES('front', '2010-06-25 01:04:12', 1.0, 't', 1, 'nonononononononononononononononononononononononono', '2010-06-25 01:04:12')[0m
+
+
+Processing HomeController#product (for 0.0.0.0 at 2010-06-24 22:04:12) [GET]
+  Parameters: {"action"=>"product", "id"=>"1", "controller"=>"home"}
+  [4;36;1mOrder Create (0.2ms)[0m   [0;1mINSERT INTO "orders" ("status", "updated_at", "total", "user_id", "created_at") VALUES(NULL, '2010-06-25 01:04:12', NULL, NULL, '2010-06-25 01:04:12')[0m
+  [4;35;1mProduct Load (0.3ms)[0m   [0mSELECT * FROM "products" WHERE ("products"."id" = 1) [0m
+Rendering template within layouts/store
+Rendering home/product
+  [4;36;1mSQL (0.2ms)[0m   [0;1mSELECT sum("order_items".quantity) AS sum_quantity FROM "order_items" WHERE ("order_items".order_id = 1) [0m
+Completed in 3ms (View: 2, DB: 1) | 200 OK [http://test.host/home/product/1]
+  [4;35;1mUser Exists (0.2ms)[0m   [0mSELECT "users".id FROM "users" WHERE ("users"."email" = 'foo@bar.com') LIMIT 1[0m
+  [4;36;1mUser Exists (0.1ms)[0m   [0;1mSELECT "users".id FROM "users" WHERE ("users"."login" = 'renato') LIMIT 1[0m
+  [4;35;1mUser Create (0.3ms)[0m   [0mINSERT INTO "users" ("name", "updated_at", "cep", "terms", "address", "login", "password", "email", "created_at") VALUES('Renato', '2010-06-25 01:04:12', '12345-123', 't', 'abc', 'renato', '12346', 'foo@bar.com', '2010-06-25 01:04:12')[0m
+
+
+Processing HomeController#login (for 0.0.0.0 at 2010-06-24 22:04:12) [POST]
+  Parameters: {"action"=>"login", "controller"=>"home"}
+  [4;36;1mOrder Create (0.2ms)[0m   [0;1mINSERT INTO "orders" ("status", "updated_at", "total", "user_id", "created_at") VALUES(NULL, '2010-06-25 01:04:12', NULL, NULL, '2010-06-25 01:04:12')[0m
+  [4;35;1mUser Load (0.1ms)[0m   [0mSELECT * FROM "users" WHERE ("users"."login" IS NULL AND "users"."password" IS NULL) LIMIT 1[0m
+Redirected to /home/login
+Completed in 2ms (DB: 1) | 302 Found [http://test.host/home/login]
+  [4;36;1mSQL (0.6ms)[0m   [0;1m SELECT name
+ FROM sqlite_master
+ WHERE type = 'table' AND NOT name = 'sqlite_sequence'
+[0m
+  [4;35;1mSQL (0.5ms)[0m   [0m SELECT name
+ FROM sqlite_master
+ WHERE type = 'table' AND NOT name = 'sqlite_sequence'
+[0m
+  [4;36;1mSQL (0.5ms)[0m   [0;1m SELECT name
+ FROM sqlite_master
+ WHERE type = 'table' AND NOT name = 'sqlite_sequence'
+[0m
+  [4;35;1mSQL (0.5ms)[0m   [0m SELECT name
+ FROM sqlite_master
+ WHERE type = 'table' AND NOT name = 'sqlite_sequence'
+[0m
+  [4;36;1mSQL (0.5ms)[0m   [0;1m SELECT name
+ FROM sqlite_master
+ WHERE type = 'table' AND NOT name = 'sqlite_sequence'
+[0m
+  [4;35;1mSQL (0.5ms)[0m   [0m SELECT name
+ FROM sqlite_master
+ WHERE type = 'table' AND NOT name = 'sqlite_sequence'
+[0m
+  [4;36;1mSQL (0.5ms)[0m   [0;1m SELECT name
+ FROM sqlite_master
+ WHERE type = 'table' AND NOT name = 'sqlite_sequence'
+[0m
+  [4;35;1mSQL (0.6ms)[0m   [0m SELECT name
+ FROM sqlite_master
+ WHERE type = 'table' AND NOT name = 'sqlite_sequence'
+[0m
+  [4;36;1mSQL (0.8ms)[0m   [0;1m SELECT name
+ FROM sqlite_master
+ WHERE type = 'table' AND NOT name = 'sqlite_sequence'
+[0m
+  [4;35;1mSQL (0.7ms)[0m   [0m SELECT name
+ FROM sqlite_master
+ WHERE type = 'table' AND NOT name = 'sqlite_sequence'
+[0m
+  [4;36;1mSQL (0.8ms)[0m   [0;1m SELECT name
+ FROM sqlite_master
+ WHERE type = 'table' AND NOT name = 'sqlite_sequence'
+[0m
+  [4;35;1mSQL (0.7ms)[0m   [0m SELECT name
+ FROM sqlite_master
+ WHERE type = 'table' AND NOT name = 'sqlite_sequence'
+[0m
+
+
+Processing HomeController#index (for 0.0.0.0 at 2010-06-24 22:04:44) [GET]
+  Parameters: {"action"=>"index", "controller"=>"home"}
+  [4;36;1mOrder Create (0.7ms)[0m   [0;1mINSERT INTO "orders" ("status", "updated_at", "total", "user_id", "created_at") VALUES(NULL, '2010-06-25 01:04:44', NULL, NULL, '2010-06-25 01:04:44')[0m
+Rendering template within layouts/store
+Rendering home/index
+  [4;35;1mProduct Load (0.2ms)[0m   [0mSELECT * FROM "products" WHERE ((stock > 0) AND ("products"."front" = 't')) [0m
+  [4;36;1mPaymentMethod Load (1.2ms)[0m   [0;1mSELECT * FROM "payment_methods" WHERE ("payment_methods"."active" = 't') [0m
+  [4;35;1mSQL (0.2ms)[0m   [0mSELECT sum("order_items".quantity) AS sum_quantity FROM "order_items" WHERE ("order_items".order_id = 1) [0m
+Completed in 15ms (View: 6, DB: 3) | 200 OK [http://test.host/]
+  [4;36;1mProduct Exists (0.2ms)[0m   [0;1mSELECT "products".id FROM "products" WHERE ("products"."name" = 'front 0') LIMIT 1[0m
+  [4;35;1mProduct Create (0.3ms)[0m   [0mINSERT INTO "products" ("name", "updated_at", "price", "front", "stock", "description", "created_at") VALUES('front 0', '2010-06-25 01:04:44', 1.0, 't', 1, 'nonononononononononononononononononononononononono', '2010-06-25 01:04:44')[0m
+  [4;36;1mProduct Exists (0.1ms)[0m   [0;1mSELECT "products".id FROM "products" WHERE ("products"."name" = 'front 1') LIMIT 1[0m
+  [4;35;1mProduct Create (0.1ms)[0m   [0mINSERT INTO "products" ("name", "updated_at", "price", "front", "stock", "description", "created_at") VALUES('front 1', '2010-06-25 01:04:44', 1.0, 't', 1, 'nonononononononononononononononononononononononono', '2010-06-25 01:04:44')[0m
+  [4;36;1mProduct Exists (0.1ms)[0m   [0;1mSELECT "products".id FROM "products" WHERE ("products"."name" = 'front 2') LIMIT 1[0m
+  [4;35;1mProduct Create (0.1ms)[0m   [0mINSERT INTO "products" ("name", "updated_at", "price", "front", "stock", "description", "created_at") VALUES('front 2', '2010-06-25 01:04:44', 1.0, 't', 1, 'nonononononononononononononononononononononononono', '2010-06-25 01:04:44')[0m
+  [4;36;1mProduct Exists (0.1ms)[0m   [0;1mSELECT "products".id FROM "products" WHERE ("products"."name" = 'front 3') LIMIT 1[0m
+  [4;35;1mProduct Create (0.2ms)[0m   [0mINSERT INTO "products" ("name", "updated_at", "price", "front", "stock", "description", "created_at") VALUES('front 3', '2010-06-25 01:04:44', 1.0, 't', 1, 'nonononononononononononononononononononononononono', '2010-06-25 01:04:44')[0m
+  [4;36;1mProduct Exists (0.1ms)[0m   [0;1mSELECT "products".id FROM "products" WHERE ("products"."name" = 'front 4') LIMIT 1[0m
+  [4;35;1mProduct Create (0.1ms)[0m   [0mINSERT INTO "products" ("name", "updated_at", "price", "front", "stock", "description", "created_at") VALUES('front 4', '2010-06-25 01:04:44', 1.0, 't', 1, 'nonononononononononononononononononononononononono', '2010-06-25 01:04:44')[0m
+
+
+Processing HomeController#index (for 0.0.0.0 at 2010-06-24 22:04:44) [GET]
+  Parameters: {"action"=>"index", "controller"=>"home"}
+  [4;36;1mOrder Create (0.2ms)[0m   [0;1mINSERT INTO "orders" ("status", "updated_at", "total", "user_id", "created_at") VALUES(NULL, '2010-06-25 01:04:44', NULL, NULL, '2010-06-25 01:04:44')[0m
+Rendering template within layouts/store
+Rendering home/index
+  [4;35;1mProduct Load (0.8ms)[0m   [0mSELECT * FROM "products" WHERE ((stock > 0) AND ("products"."front" = 't')) [0m
+  [4;36;1mPaymentMethod Load (0.2ms)[0m   [0;1mSELECT * FROM "payment_methods" WHERE ("payment_methods"."active" = 't') [0m
+  [4;35;1mSQL (0.2ms)[0m   [0mSELECT sum("order_items".quantity) AS sum_quantity FROM "order_items" WHERE ("order_items".order_id = 1) [0m
+Completed in 152ms (View: 150, DB: 1) | 200 OK [http://test.host/]
+  [4;36;1mProduct Exists (0.2ms)[0m   [0;1mSELECT "products".id FROM "products" WHERE ("products"."name" = 'front') LIMIT 1[0m
+  [4;35;1mProduct Create (0.3ms)[0m   [0mINSERT INTO "products" ("name", "updated_at", "price", "front", "stock", "description", "created_at") VALUES('front', '2010-06-25 01:04:44', 1.0, 't', 1, 'nonononononononononononononononononononononononono', '2010-06-25 01:04:44')[0m
+
+
+Processing HomeController#product (for 0.0.0.0 at 2010-06-24 22:04:44) [GET]
+  Parameters: {"action"=>"product", "id"=>"1", "controller"=>"home"}
+  [4;36;1mOrder Create (0.1ms)[0m   [0;1mINSERT INTO "orders" ("status", "updated_at", "total", "user_id", "created_at") VALUES(NULL, '2010-06-25 01:04:44', NULL, NULL, '2010-06-25 01:04:44')[0m
+  [4;35;1mProduct Load (0.3ms)[0m   [0mSELECT * FROM "products" WHERE ("products"."id" = 1) [0m
+Rendering template within layouts/store
+Rendering home/product
+  [4;36;1mSQL (0.2ms)[0m   [0;1mSELECT sum("order_items".quantity) AS sum_quantity FROM "order_items" WHERE ("order_items".order_id = 1) [0m
+Completed in 3ms (View: 2, DB: 1) | 200 OK [http://test.host/home/product/1]
+  [4;35;1mUser Exists (0.2ms)[0m   [0mSELECT "users".id FROM "users" WHERE ("users"."email" = 'foo@bar.com') LIMIT 1[0m
+  [4;36;1mUser Exists (0.1ms)[0m   [0;1mSELECT "users".id FROM "users" WHERE ("users"."login" = 'renato') LIMIT 1[0m
+  [4;35;1mUser Create (0.3ms)[0m   [0mINSERT INTO "users" ("name", "updated_at", "cep", "terms", "address", "login", "password", "email", "created_at") VALUES('Renato', '2010-06-25 01:04:44', '12345-123', 't', 'abc', 'renato', '12346', 'foo@bar.com', '2010-06-25 01:04:44')[0m
+
+
+Processing HomeController#login (for 0.0.0.0 at 2010-06-24 22:04:44) [POST]
+  Parameters: {"action"=>"login", "controller"=>"home"}
+  [4;36;1mOrder Create (0.2ms)[0m   [0;1mINSERT INTO "orders" ("status", "updated_at", "total", "user_id", "created_at") VALUES(NULL, '2010-06-25 01:04:44', NULL, NULL, '2010-06-25 01:04:44')[0m
+  [4;35;1mUser Load (0.1ms)[0m   [0mSELECT * FROM "users" WHERE ("users"."password" IS NULL AND "users"."login" IS NULL) LIMIT 1[0m
+Redirected to /home/login
+Completed in 2ms (DB: 1) | 302 Found [http://test.host/home/login]
+  [4;36;1mSQL (0.7ms)[0m   [0;1m SELECT name
+ FROM sqlite_master
+ WHERE type = 'table' AND NOT name = 'sqlite_sequence'
+[0m
+  [4;35;1mSQL (0.5ms)[0m   [0m SELECT name
+ FROM sqlite_master
+ WHERE type = 'table' AND NOT name = 'sqlite_sequence'
+[0m
+  [4;36;1mSQL (0.5ms)[0m   [0;1m SELECT name
+ FROM sqlite_master
+ WHERE type = 'table' AND NOT name = 'sqlite_sequence'
+[0m
+  [4;35;1mSQL (0.5ms)[0m   [0m SELECT name
+ FROM sqlite_master
+ WHERE type = 'table' AND NOT name = 'sqlite_sequence'
+[0m
+  [4;36;1mSQL (0.5ms)[0m   [0;1m SELECT name
+ FROM sqlite_master
+ WHERE type = 'table' AND NOT name = 'sqlite_sequence'
+[0m
+  [4;35;1mSQL (0.6ms)[0m   [0m SELECT name
+ FROM sqlite_master
+ WHERE type = 'table' AND NOT name = 'sqlite_sequence'
+[0m
+  [4;36;1mSQL (0.5ms)[0m   [0;1m SELECT name
+ FROM sqlite_master
+ WHERE type = 'table' AND NOT name = 'sqlite_sequence'
+[0m
+  [4;35;1mSQL (0.6ms)[0m   [0m SELECT name
+ FROM sqlite_master
+ WHERE type = 'table' AND NOT name = 'sqlite_sequence'
+[0m
+  [4;36;1mSQL (0.7ms)[0m   [0;1m SELECT name
+ FROM sqlite_master
+ WHERE type = 'table' AND NOT name = 'sqlite_sequence'
+[0m
+  [4;35;1mSQL (0.7ms)[0m   [0m SELECT name
+ FROM sqlite_master
+ WHERE type = 'table' AND NOT name = 'sqlite_sequence'
+[0m
+  [4;36;1mSQL (2.0ms)[0m   [0;1m SELECT name
+ FROM sqlite_master
+ WHERE type = 'table' AND NOT name = 'sqlite_sequence'
+[0m
+  [4;35;1mSQL (0.8ms)[0m   [0m SELECT name
+ FROM sqlite_master
+ WHERE type = 'table' AND NOT name = 'sqlite_sequence'
+[0m
+  [4;36;1mSQL (0.7ms)[0m   [0;1m SELECT name
+ FROM sqlite_master
+ WHERE type = 'table' AND NOT name = 'sqlite_sequence'
+[0m
+  [4;35;1mSQL (0.5ms)[0m   [0m SELECT name
+ FROM sqlite_master
+ WHERE type = 'table' AND NOT name = 'sqlite_sequence'
+[0m
+  [4;36;1mSQL (0.5ms)[0m   [0;1m SELECT name
+ FROM sqlite_master
+ WHERE type = 'table' AND NOT name = 'sqlite_sequence'
+[0m
+  [4;35;1mSQL (0.5ms)[0m   [0m SELECT name
+ FROM sqlite_master
+ WHERE type = 'table' AND NOT name = 'sqlite_sequence'
+[0m
+  [4;36;1mSQL (0.5ms)[0m   [0;1m SELECT name
+ FROM sqlite_master
+ WHERE type = 'table' AND NOT name = 'sqlite_sequence'
+[0m
+  [4;35;1mSQL (0.5ms)[0m   [0m SELECT name
+ FROM sqlite_master
+ WHERE type = 'table' AND NOT name = 'sqlite_sequence'
+[0m
+  [4;36;1mSQL (0.5ms)[0m   [0;1m SELECT name
+ FROM sqlite_master
+ WHERE type = 'table' AND NOT name = 'sqlite_sequence'
+[0m
+  [4;35;1mSQL (0.5ms)[0m   [0m SELECT name
+ FROM sqlite_master
+ WHERE type = 'table' AND NOT name = 'sqlite_sequence'
+[0m
+  [4;36;1mSQL (0.5ms)[0m   [0;1m SELECT name
+ FROM sqlite_master
+ WHERE type = 'table' AND NOT name = 'sqlite_sequence'
+[0m
+  [4;35;1mSQL (0.6ms)[0m   [0m SELECT name
+ FROM sqlite_master
+ WHERE type = 'table' AND NOT name = 'sqlite_sequence'
+[0m
+  [4;36;1mSQL (0.5ms)[0m   [0;1m SELECT name
+ FROM sqlite_master
+ WHERE type = 'table' AND NOT name = 'sqlite_sequence'
+[0m
+  [4;35;1mSQL (0.5ms)[0m   [0m SELECT name
+ FROM sqlite_master
+ WHERE type = 'table' AND NOT name = 'sqlite_sequence'
+[0m
+
+
+Processing HomeController#index (for 0.0.0.0 at 2010-06-24 22:07:02) [GET]
+  Parameters: {"action"=>"index", "controller"=>"home"}
+  [4;36;1mOrder Create (0.7ms)[0m   [0;1mINSERT INTO "orders" ("status", "updated_at", "total", "user_id", "created_at") VALUES(NULL, '2010-06-25 01:07:02', NULL, NULL, '2010-06-25 01:07:02')[0m
+Rendering template within layouts/store
+Rendering home/index
+  [4;35;1mProduct Load (0.2ms)[0m   [0mSELECT * FROM "products" WHERE ((stock > 0) AND ("products"."front" = 't')) [0m
+  [4;36;1mPaymentMethod Load (0.1ms)[0m   [0;1mSELECT * FROM "payment_methods" WHERE ("payment_methods"."active" = 't') [0m
+  [4;35;1mSQL (1.8ms)[0m   [0mSELECT sum("order_items".quantity) AS sum_quantity FROM "order_items" WHERE ("order_items".order_id = 1) [0m
+Completed in 20ms (View: 10, DB: 3) | 200 OK [http://test.host/]
+  [4;36;1mProduct Exists (0.2ms)[0m   [0;1mSELECT "products".id FROM "products" WHERE ("products"."name" = 'front 0') LIMIT 1[0m
+  [4;35;1mProduct Create (0.3ms)[0m   [0mINSERT INTO "products" ("name", "updated_at", "price", "front", "stock", "description", "created_at") VALUES('front 0', '2010-06-25 01:07:02', 1.0, 't', 1, 'nonononononononononononononononononononononononono', '2010-06-25 01:07:02')[0m
+  [4;36;1mProduct Exists (0.1ms)[0m   [0;1mSELECT "products".id FROM "products" WHERE ("products"."name" = 'front 1') LIMIT 1[0m
+  [4;35;1mProduct Create (0.1ms)[0m   [0mINSERT INTO "products" ("name", "updated_at", "price", "front", "stock", "description", "created_at") VALUES('front 1', '2010-06-25 01:07:02', 1.0, 't', 1, 'nonononononononononononononononononononononononono', '2010-06-25 01:07:02')[0m
+  [4;36;1mProduct Exists (0.1ms)[0m   [0;1mSELECT "products".id FROM "products" WHERE ("products"."name" = 'front 2') LIMIT 1[0m
+  [4;35;1mProduct Create (0.1ms)[0m   [0mINSERT INTO "products" ("name", "updated_at", "price", "front", "stock", "description", "created_at") VALUES('front 2', '2010-06-25 01:07:02', 1.0, 't', 1, 'nonononononononononononononononononononononononono', '2010-06-25 01:07:02')[0m
+  [4;36;1mProduct Exists (0.1ms)[0m   [0;1mSELECT "products".id FROM "products" WHERE ("products"."name" = 'front 3') LIMIT 1[0m
+  [4;35;1mProduct Create (0.2ms)[0m   [0mINSERT INTO "products" ("name", "updated_at", "price", "front", "stock", "description", "created_at") VALUES('front 3', '2010-06-25 01:07:02', 1.0, 't', 1, 'nonononononononononononononononononononononononono', '2010-06-25 01:07:02')[0m
+  [4;36;1mProduct Exists (0.1ms)[0m   [0;1mSELECT "products".id FROM "products" WHERE ("products"."name" = 'front 4') LIMIT 1[0m
+  [4;35;1mProduct Create (0.1ms)[0m   [0mINSERT INTO "products" ("name", "updated_at", "price", "front", "stock", "description", "created_at") VALUES('front 4', '2010-06-25 01:07:02', 1.0, 't', 1, 'nonononononononononononononononononononononononono', '2010-06-25 01:07:02')[0m
+
+
+Processing HomeController#index (for 0.0.0.0 at 2010-06-24 22:07:02) [GET]
+  Parameters: {"action"=>"index", "controller"=>"home"}
+  [4;36;1mOrder Create (0.2ms)[0m   [0;1mINSERT INTO "orders" ("status", "updated_at", "total", "user_id", "created_at") VALUES(NULL, '2010-06-25 01:07:02', NULL, NULL, '2010-06-25 01:07:02')[0m
+Rendering template within layouts/store
+Rendering home/index
+  [4;35;1mProduct Load (0.7ms)[0m   [0mSELECT * FROM "products" WHERE ((stock > 0) AND ("products"."front" = 't')) [0m
+  [4;36;1mPaymentMethod Load (0.2ms)[0m   [0;1mSELECT * FROM "payment_methods" WHERE ("payment_methods"."active" = 't') [0m
+  [4;35;1mSQL (0.2ms)[0m   [0mSELECT sum("order_items".quantity) AS sum_quantity FROM "order_items" WHERE ("order_items".order_id = 1) [0m
+Completed in 150ms (View: 149, DB: 1) | 200 OK [http://test.host/]
+  [4;36;1mProduct Exists (0.1ms)[0m   [0;1mSELECT "products".id FROM "products" WHERE ("products"."name" = 'front') LIMIT 1[0m
+  [4;35;1mProduct Create (0.3ms)[0m   [0mINSERT INTO "products" ("name", "updated_at", "price", "front", "stock", "description", "created_at") VALUES('front', '2010-06-25 01:07:03', 1.0, 't', 1, 'nonononononononononononononononononononononononono', '2010-06-25 01:07:03')[0m
+
+
+Processing HomeController#product (for 0.0.0.0 at 2010-06-24 22:07:03) [GET]
+  Parameters: {"action"=>"product", "id"=>"1", "controller"=>"home"}
+  [4;36;1mOrder Create (0.2ms)[0m   [0;1mINSERT INTO "orders" ("status", "updated_at", "total", "user_id", "created_at") VALUES(NULL, '2010-06-25 01:07:03', NULL, NULL, '2010-06-25 01:07:03')[0m
+  [4;35;1mProduct Load (0.3ms)[0m   [0mSELECT * FROM "products" WHERE ("products"."id" = 1) [0m
+Rendering template within layouts/store
+Rendering home/product
+  [4;36;1mSQL (0.2ms)[0m   [0;1mSELECT sum("order_items".quantity) AS sum_quantity FROM "order_items" WHERE ("order_items".order_id = 1) [0m
+Completed in 3ms (View: 2, DB: 1) | 200 OK [http://test.host/home/product/1]
+  [4;35;1mUser Exists (0.2ms)[0m   [0mSELECT "users".id FROM "users" WHERE ("users"."email" = 'foo@bar.com') LIMIT 1[0m
+  [4;36;1mUser Exists (0.1ms)[0m   [0;1mSELECT "users".id FROM "users" WHERE ("users"."login" = 'renato') LIMIT 1[0m
+  [4;35;1mUser Create (0.3ms)[0m   [0mINSERT INTO "users" ("name", "updated_at", "cep", "terms", "address", "login", "password", "email", "created_at") VALUES('Renato', '2010-06-25 01:07:03', '12345-123', 't', 'abc', 'renato', '12346', 'foo@bar.com', '2010-06-25 01:07:03')[0m
+
+
+Processing HomeController#login (for 0.0.0.0 at 2010-06-24 22:07:03) [POST]
+  Parameters: {"action"=>"login", "controller"=>"home"}
+  [4;36;1mOrder Create (0.2ms)[0m   [0;1mINSERT INTO "orders" ("status", "updated_at", "total", "user_id", "created_at") VALUES(NULL, '2010-06-25 01:07:03', NULL, NULL, '2010-06-25 01:07:03')[0m
+  [4;35;1mUser Load (0.1ms)[0m   [0mSELECT * FROM "users" WHERE ("users"."password" IS NULL AND "users"."login" IS NULL) LIMIT 1[0m
+Redirected to /home/login
+Completed in 2ms (DB: 1) | 302 Found [http://test.host/home/login]
+  [4;36;1mUser Exists (0.4ms)[0m   [0;1mSELECT "users".id FROM "users" WHERE ("users"."email" = 'foo@bar.com') LIMIT 1[0m
+  [4;35;1mUser Exists (0.1ms)[0m   [0mSELECT "users".id FROM "users" WHERE ("users"."login" = 'renato') LIMIT 1[0m
+  [4;36;1mUser Create (0.6ms)[0m   [0;1mINSERT INTO "users" ("name", "updated_at", "cep", "terms", "address", "login", "password", "email", "created_at") VALUES('Renato', '2010-06-25 01:07:14', '12345-123', 't', 'abc', 'renato', '12346', 'foo@bar.com', '2010-06-25 01:07:14')[0m
+
+
+Processing CheckoutController#login (for 0.0.0.0 at 2010-06-24 22:07:14) [POST]
+  [4;35;1mOrder Create (0.2ms)[0m   [0mINSERT INTO "orders" ("status", "updated_at", "total", "user_id", "created_at") VALUES(NULL, '2010-06-25 01:07:14', NULL, NULL, '2010-06-25 01:07:14')[0m
+Redirected to actionlogincontrollerhome
+Filter chain halted as [:require_user] rendered_or_redirected.
+Completed in 5ms (DB: 4) | 302 Found [http://test.host/checkout/login]
+  [4;36;1mUser Exists (0.3ms)[0m   [0;1mSELECT "users".id FROM "users" WHERE ("users"."email" = 'foo@bar.com') LIMIT 1[0m
+  [4;35;1mUser Exists (0.1ms)[0m   [0mSELECT "users".id FROM "users" WHERE ("users"."login" = 'renato') LIMIT 1[0m
+  [4;36;1mUser Create (0.6ms)[0m   [0;1mINSERT INTO "users" ("name", "updated_at", "cep", "terms", "address", "login", "password", "email", "created_at") VALUES('Renato', '2010-06-25 01:08:35', '12345-123', 't', 'abc', 'renato', '12346', 'foo@bar.com', '2010-06-25 01:08:35')[0m
+
+
+Processing CheckoutController#login (for 0.0.0.0 at 2010-06-24 22:08:35) [POST]
+  [4;35;1mOrder Create (0.4ms)[0m   [0mINSERT INTO "orders" ("status", "updated_at", "total", "user_id", "created_at") VALUES(NULL, '2010-06-25 01:08:35', NULL, NULL, '2010-06-25 01:08:35')[0m
+Redirected to controllerhomeactionlogin
+Filter chain halted as [:require_user] rendered_or_redirected.
+Completed in 6ms (DB: 3) | 302 Found [http://test.host/checkout/login]
+  [4;36;1mUser Exists (1.0ms)[0m   [0;1mSELECT "users".id FROM "users" WHERE ("users"."email" = 'foo@bar.com') LIMIT 1[0m
+  [4;35;1mUser Exists (0.2ms)[0m   [0mSELECT "users".id FROM "users" WHERE ("users"."login" = 'renato') LIMIT 1[0m
+  [4;36;1mUser Create (0.7ms)[0m   [0;1mINSERT INTO "users" ("name", "updated_at", "cep", "terms", "address", "login", "password", "email", "created_at") VALUES('Renato', '2010-06-25 01:13:52', '12345-123', 't', 'abc', 'renato', '12346', 'foo@bar.com', '2010-06-25 01:13:52')[0m
+
+
+Processing CheckoutController#login (for 0.0.0.0 at 2010-06-24 22:13:52) [POST]
+  [4;35;1mOrder Create (0.3ms)[0m   [0mINSERT INTO "orders" ("status", "updated_at", "total", "user_id", "created_at") VALUES(NULL, '2010-06-25 01:13:52', NULL, NULL, '2010-06-25 01:13:52')[0m
+Redirected to controllerhomeactionlogin
+Filter chain halted as [:require_user] rendered_or_redirected.
+Completed in 6ms (DB: 4) | 302 Found [http://test.host/checkout/login]
+
+
+Processing CheckoutController#login (for 0.0.0.0 at 2010-06-24 22:13:52) [POST]
+  Parameters: {"id"=>"996332878"}
+  [4;36;1mOrder Create (0.2ms)[0m   [0;1mINSERT INTO "orders" ("status", "updated_at", "total", "user_id", "created_at") VALUES(NULL, '2010-06-25 01:13:52', NULL, NULL, '2010-06-25 01:13:52')[0m
+Redirected to controllerhomeactionlogin
+Filter chain halted as [:require_user] rendered_or_redirected.
+Completed in 2ms (DB: 0) | 302 Found [http://test.host/checkout/login]
+
+
+Processing HomeController#index (for 0.0.0.0 at 2010-06-24 22:33:33) [GET]
+  Parameters: {"action"=>"index", "controller"=>"home"}
+  [4;36;1mOrder Create (0.7ms)[0m   [0;1mINSERT INTO "orders" ("status", "updated_at", "total", "user_id", "created_at") VALUES(NULL, '2010-06-25 01:33:33', NULL, NULL, '2010-06-25 01:33:33')[0m
+Rendering template within layouts/store
+Rendering home/index
+  [4;35;1mProduct Load (0.2ms)[0m   [0mSELECT * FROM "products" WHERE ((stock > 0) AND ("products"."front" = 't')) [0m
+  [4;36;1mPaymentMethod Load (0.1ms)[0m   [0;1mSELECT * FROM "payment_methods" WHERE ("payment_methods"."active" = 't') [0m
+  [4;35;1mSQL (0.2ms)[0m   [0mSELECT sum("order_items".quantity) AS sum_quantity FROM "order_items" WHERE ("order_items".order_id = 1) [0m
+Completed in 16ms (View: 8, DB: 3) | 200 OK [http://test.host/]
+  [4;36;1mProduct Exists (0.2ms)[0m   [0;1mSELECT "products".id FROM "products" WHERE ("products"."name" = 'front 0') LIMIT 1[0m
+  [4;35;1mProduct Create (0.3ms)[0m   [0mINSERT INTO "products" ("name", "updated_at", "price", "front", "stock", "description", "created_at") VALUES('front 0', '2010-06-25 01:33:33', 1.0, 't', 1, 'nonononononononononononononononononononononononono', '2010-06-25 01:33:33')[0m
+  [4;36;1mProduct Exists (0.1ms)[0m   [0;1mSELECT "products".id FROM "products" WHERE ("products"."name" = 'front 1') LIMIT 1[0m
+  [4;35;1mProduct Create (0.1ms)[0m   [0mINSERT INTO "products" ("name", "updated_at", "price", "front", "stock", "description", "created_at") VALUES('front 1', '2010-06-25 01:33:33', 1.0, 't', 1, 'nonononononononononononononononononononononononono', '2010-06-25 01:33:33')[0m
+  [4;36;1mProduct Exists (0.1ms)[0m   [0;1mSELECT "products".id FROM "products" WHERE ("products"."name" = 'front 2') LIMIT 1[0m
+  [4;35;1mProduct Create (0.1ms)[0m   [0mINSERT INTO "products" ("name", "updated_at", "price", "front", "stock", "description", "created_at") VALUES('front 2', '2010-06-25 01:33:33', 1.0, 't', 1, 'nonononononononononononononononononononononononono', '2010-06-25 01:33:33')[0m
+  [4;36;1mProduct Exists (0.2ms)[0m   [0;1mSELECT "products".id FROM "products" WHERE ("products"."name" = 'front 3') LIMIT 1[0m
+  [4;35;1mProduct Create (0.1ms)[0m   [0mINSERT INTO "products" ("name", "updated_at", "price", "front", "stock", "description", "created_at") VALUES('front 3', '2010-06-25 01:33:33', 1.0, 't', 1, 'nonononononononononononononononononononononononono', '2010-06-25 01:33:33')[0m
+  [4;36;1mProduct Exists (0.1ms)[0m   [0;1mSELECT "products".id FROM "products" WHERE ("products"."name" = 'front 4') LIMIT 1[0m
+  [4;35;1mProduct Create (0.1ms)[0m   [0mINSERT INTO "products" ("name", "updated_at", "price", "front", "stock", "description", "created_at") VALUES('front 4', '2010-06-25 01:33:33', 1.0, 't', 1, 'nonononononononononononononononononononononononono', '2010-06-25 01:33:33')[0m
+
+
+Processing HomeController#index (for 0.0.0.0 at 2010-06-24 22:33:33) [GET]
+  Parameters: {"action"=>"index", "controller"=>"home"}
+  [4;36;1mOrder Create (0.2ms)[0m   [0;1mINSERT INTO "orders" ("status", "updated_at", "total", "user_id", "created_at") VALUES(NULL, '2010-06-25 01:33:33', NULL, NULL, '2010-06-25 01:33:33')[0m
+Rendering template within layouts/store
+Rendering home/index
+  [4;35;1mProduct Load (0.9ms)[0m   [0mSELECT * FROM "products" WHERE ((stock > 0) AND ("products"."front" = 't')) [0m
+  [4;36;1mPaymentMethod Load (0.2ms)[0m   [0;1mSELECT * FROM "payment_methods" WHERE ("payment_methods"."active" = 't') [0m
+  [4;35;1mSQL (0.2ms)[0m   [0mSELECT sum("order_items".quantity) AS sum_quantity FROM "order_items" WHERE ("order_items".order_id = 1) [0m
+Completed in 151ms (View: 150, DB: 2) | 200 OK [http://test.host/]
+
+
+Processing HomeController#login (for 0.0.0.0 at 2010-06-24 22:33:33) [GET]
+  Parameters: {"action"=>"login", "controller"=>"home"}
+  [4;36;1mOrder Create (0.4ms)[0m   [0;1mINSERT INTO "orders" ("status", "updated_at", "total", "user_id", "created_at") VALUES(NULL, '2010-06-25 01:33:33', NULL, NULL, '2010-06-25 01:33:33')[0m
+Rendering template within layouts/store
+Rendering home/login
+  [4;35;1mSQL (0.2ms)[0m   [0mSELECT sum("order_items".quantity) AS sum_quantity FROM "order_items" WHERE ("order_items".order_id = 1) [0m
+Completed in 3ms (View: 2, DB: 0) | 200 OK [http://test.host/home/login]
+  [4;36;1mProduct Exists (0.2ms)[0m   [0;1mSELECT "products".id FROM "products" WHERE ("products"."name" = 'front') LIMIT 1[0m
+  [4;35;1mProduct Create (0.3ms)[0m   [0mINSERT INTO "products" ("name", "updated_at", "price", "front", "stock", "description", "created_at") VALUES('front', '2010-06-25 01:33:33', 1.0, 't', 1, 'nonononononononononononononononononononononononono', '2010-06-25 01:33:33')[0m
+
+
+Processing HomeController#product (for 0.0.0.0 at 2010-06-24 22:33:33) [GET]
+  Parameters: {"action"=>"product", "id"=>"1", "controller"=>"home"}
+  [4;36;1mOrder Create (0.2ms)[0m   [0;1mINSERT INTO "orders" ("status", "updated_at", "total", "user_id", "created_at") VALUES(NULL, '2010-06-25 01:33:33', NULL, NULL, '2010-06-25 01:33:33')[0m
+  [4;35;1mProduct Load (0.3ms)[0m   [0mSELECT * FROM "products" WHERE ("products"."id" = 1) [0m
+Rendering template within layouts/store
+Rendering home/product
+  [4;36;1mSQL (0.2ms)[0m   [0;1mSELECT sum("order_items".quantity) AS sum_quantity FROM "order_items" WHERE ("order_items".order_id = 1) [0m
+Completed in 4ms (View: 2, DB: 1) | 200 OK [http://test.host/home/product/1]
+  [4;35;1mUser Exists (0.2ms)[0m   [0mSELECT "users".id FROM "users" WHERE ("users"."email" = 'foo@bar.com') LIMIT 1[0m
+  [4;36;1mUser Exists (0.1ms)[0m   [0;1mSELECT "users".id FROM "users" WHERE ("users"."login" = 'abcd') LIMIT 1[0m
+  [4;35;1mUser Create (0.3ms)[0m   [0mINSERT INTO "users" ("name", "updated_at", "cep", "terms", "address", "login", "password", "email", "created_at") VALUES('Abcd', '2010-06-25 01:33:34', '12345-123', 't', 'street', 'abcd', '12346', 'foo@bar.com', '2010-06-25 01:33:34')[0m
+
+
+Processing HomeController#login (for 0.0.0.0 at 2010-06-24 22:33:34) [POST]
+  Parameters: {"action"=>"login", "controller"=>"home", "login"=>"abcd", "password"=>"[FILTERED]"}
+  [4;36;1mOrder Create (0.2ms)[0m   [0;1mINSERT INTO "orders" ("status", "updated_at", "total", "user_id", "created_at") VALUES(NULL, '2010-06-25 01:33:34', NULL, NULL, '2010-06-25 01:33:34')[0m
+  [4;35;1mUser Load (0.3ms)[0m   [0mSELECT * FROM "users" WHERE ("users"."login" = 'abcd' AND "users"."password" = '12346') LIMIT 1[0m
+Redirected to /
+Completed in 3ms (DB: 1) | 302 Found [http://test.host/home/login?login=abcd&password=12346]
+
+
+Processing HomeController#login (for 0.0.0.0 at 2010-06-24 22:33:34) [POST]
+  Parameters: {"action"=>"login", "controller"=>"home", "login"=>"wrong", "password"=>"[FILTERED]"}
+  [4;36;1mOrder Create (0.3ms)[0m   [0;1mINSERT INTO "orders" ("status", "updated_at", "total", "user_id", "created_at") VALUES(NULL, '2010-06-25 01:33:34', NULL, NULL, '2010-06-25 01:33:34')[0m
+  [4;35;1mUser Load (0.1ms)[0m   [0mSELECT * FROM "users" WHERE ("users"."login" = 'wrong' AND "users"."password" = 'error') LIMIT 1[0m
+Redirected to /home/login
+Completed in 2ms (DB: 0) | 302 Found [http://test.host/home/login?login=wrong&password=error]
+  [4;36;1mSQL (0.6ms)[0m   [0;1m SELECT name
+ FROM sqlite_master
+ WHERE type = 'table' AND NOT name = 'sqlite_sequence'
+[0m
+  [4;35;1mSQL (0.5ms)[0m   [0m SELECT name
+ FROM sqlite_master
+ WHERE type = 'table' AND NOT name = 'sqlite_sequence'
+[0m
+  [4;36;1mSQL (0.5ms)[0m   [0;1m SELECT name
+ FROM sqlite_master
+ WHERE type = 'table' AND NOT name = 'sqlite_sequence'
+[0m
+  [4;35;1mSQL (0.5ms)[0m   [0m SELECT name
+ FROM sqlite_master
+ WHERE type = 'table' AND NOT name = 'sqlite_sequence'
+[0m
+  [4;36;1mSQL (0.5ms)[0m   [0;1m SELECT name
+ FROM sqlite_master
+ WHERE type = 'table' AND NOT name = 'sqlite_sequence'
+[0m
+  [4;35;1mSQL (0.5ms)[0m   [0m SELECT name
+ FROM sqlite_master
+ WHERE type = 'table' AND NOT name = 'sqlite_sequence'
+[0m
+  [4;36;1mSQL (0.5ms)[0m   [0;1m SELECT name
+ FROM sqlite_master
+ WHERE type = 'table' AND NOT name = 'sqlite_sequence'
+[0m
+  [4;35;1mSQL (0.5ms)[0m   [0m SELECT name
+ FROM sqlite_master
+ WHERE type = 'table' AND NOT name = 'sqlite_sequence'
+[0m
+  [4;36;1mSQL (0.5ms)[0m   [0;1m SELECT name
+ FROM sqlite_master
+ WHERE type = 'table' AND NOT name = 'sqlite_sequence'
+[0m
+  [4;35;1mSQL (0.5ms)[0m   [0m SELECT name
+ FROM sqlite_master
+ WHERE type = 'table' AND NOT name = 'sqlite_sequence'
+[0m
+  [4;36;1mSQL (0.5ms)[0m   [0;1m SELECT name
+ FROM sqlite_master
+ WHERE type = 'table' AND NOT name = 'sqlite_sequence'
+[0m
+  [4;35;1mSQL (0.5ms)[0m   [0m SELECT name
+ FROM sqlite_master
+ WHERE type = 'table' AND NOT name = 'sqlite_sequence'
+[0m
+
+
+Processing HomeController#index (for 0.0.0.0 at 2010-06-24 22:35:53) [GET]
+  Parameters: {"action"=>"index", "controller"=>"home"}
+  [4;36;1mOrder Create (0.5ms)[0m   [0;1mINSERT INTO "orders" ("status", "updated_at", "total", "user_id", "created_at") VALUES(NULL, '2010-06-25 01:35:53', NULL, NULL, '2010-06-25 01:35:53')[0m
+Rendering template within layouts/store
+Rendering home/index
+  [4;35;1mProduct Load (0.2ms)[0m   [0mSELECT * FROM "products" WHERE ((stock > 0) AND ("products"."front" = 't')) [0m
+  [4;36;1mPaymentMethod Load (0.1ms)[0m   [0;1mSELECT * FROM "payment_methods" WHERE ("payment_methods"."active" = 't') [0m
+  [4;35;1mSQL (0.2ms)[0m   [0mSELECT sum("order_items".quantity) AS sum_quantity FROM "order_items" WHERE ("order_items".order_id = 1) [0m
+Completed in 21ms (View: 4, DB: 2) | 200 OK [http://test.host/]
+  [4;36;1mProduct Exists (0.2ms)[0m   [0;1mSELECT "products".id FROM "products" WHERE ("products"."name" = 'front 0') LIMIT 1[0m
+  [4;35;1mProduct Create (0.3ms)[0m   [0mINSERT INTO "products" ("name", "updated_at", "price", "front", "stock", "description", "created_at") VALUES('front 0', '2010-06-25 01:35:53', 1.0, 't', 1, 'nonononononononononononononononononononononononono', '2010-06-25 01:35:53')[0m
+  [4;36;1mProduct Exists (0.1ms)[0m   [0;1mSELECT "products".id FROM "products" WHERE ("products"."name" = 'front 1') LIMIT 1[0m
+  [4;35;1mProduct Create (0.1ms)[0m   [0mINSERT INTO "products" ("name", "updated_at", "price", "front", "stock", "description", "created_at") VALUES('front 1', '2010-06-25 01:35:53', 1.0, 't', 1, 'nonononononononononononononononononononononononono', '2010-06-25 01:35:53')[0m
+  [4;36;1mProduct Exists (0.1ms)[0m   [0;1mSELECT "products".id FROM "products" WHERE ("products"."name" = 'front 2') LIMIT 1[0m
+  [4;35;1mProduct Create (0.1ms)[0m   [0mINSERT INTO "products" ("name", "updated_at", "price", "front", "stock", "description", "created_at") VALUES('front 2', '2010-06-25 01:35:53', 1.0, 't', 1, 'nonononononononononononononononononononononononono', '2010-06-25 01:35:53')[0m
+  [4;36;1mProduct Exists (0.1ms)[0m   [0;1mSELECT "products".id FROM "products" WHERE ("products"."name" = 'front 3') LIMIT 1[0m
+  [4;35;1mProduct Create (0.1ms)[0m   [0mINSERT INTO "products" ("name", "updated_at", "price", "front", "stock", "description", "created_at") VALUES('front 3', '2010-06-25 01:35:53', 1.0, 't', 1, 'nonononononononononononononononononononononononono', '2010-06-25 01:35:53')[0m
+  [4;36;1mProduct Exists (0.1ms)[0m   [0;1mSELECT "products".id FROM "products" WHERE ("products"."name" = 'front 4') LIMIT 1[0m
+  [4;35;1mProduct Create (0.1ms)[0m   [0mINSERT INTO "products" ("name", "updated_at", "price", "front", "stock", "description", "created_at") VALUES('front 4', '2010-06-25 01:35:53', 1.0, 't', 1, 'nonononononononononononononononononononononononono', '2010-06-25 01:35:53')[0m
+
+
+Processing HomeController#index (for 0.0.0.0 at 2010-06-24 22:35:53) [GET]
+  Parameters: {"action"=>"index", "controller"=>"home"}
+  [4;36;1mOrder Create (0.2ms)[0m   [0;1mINSERT INTO "orders" ("status", "updated_at", "total", "user_id", "created_at") VALUES(NULL, '2010-06-25 01:35:53', NULL, NULL, '2010-06-25 01:35:53')[0m
+Rendering template within layouts/store
+Rendering home/index
+  [4;35;1mProduct Load (0.8ms)[0m   [0mSELECT * FROM "products" WHERE ((stock > 0) AND ("products"."front" = 't')) [0m
+  [4;36;1mPaymentMethod Load (0.2ms)[0m   [0;1mSELECT * FROM "payment_methods" WHERE ("payment_methods"."active" = 't') [0m
+  [4;35;1mSQL (0.2ms)[0m   [0mSELECT sum("order_items".quantity) AS sum_quantity FROM "order_items" WHERE ("order_items".order_id = 1) [0m
+Completed in 157ms (View: 155, DB: 1) | 200 OK [http://test.host/]
+
+
+Processing HomeController#login (for 0.0.0.0 at 2010-06-24 22:35:53) [GET]
+  Parameters: {"action"=>"login", "controller"=>"home"}
+  [4;36;1mOrder Create (0.4ms)[0m   [0;1mINSERT INTO "orders" ("status", "updated_at", "total", "user_id", "created_at") VALUES(NULL, '2010-06-25 01:35:53', NULL, NULL, '2010-06-25 01:35:53')[0m
+Rendering template within layouts/store
+Rendering home/login
+  [4;35;1mSQL (0.2ms)[0m   [0mSELECT sum("order_items".quantity) AS sum_quantity FROM "order_items" WHERE ("order_items".order_id = 1) [0m
+Completed in 3ms (View: 2, DB: 0) | 200 OK [http://test.host/home/login]
+  [4;36;1mProduct Exists (0.2ms)[0m   [0;1mSELECT "products".id FROM "products" WHERE ("products"."name" = 'front') LIMIT 1[0m
+  [4;35;1mProduct Create (0.3ms)[0m   [0mINSERT INTO "products" ("name", "updated_at", "price", "front", "stock", "description", "created_at") VALUES('front', '2010-06-25 01:35:53', 1.0, 't', 1, 'nonononononononononononononononononononononononono', '2010-06-25 01:35:53')[0m
+
+
+Processing HomeController#product (for 0.0.0.0 at 2010-06-24 22:35:53) [GET]
+  Parameters: {"action"=>"product", "id"=>"1", "controller"=>"home"}
+  [4;36;1mOrder Create (0.2ms)[0m   [0;1mINSERT INTO "orders" ("status", "updated_at", "total", "user_id", "created_at") VALUES(NULL, '2010-06-25 01:35:53', NULL, NULL, '2010-06-25 01:35:53')[0m
+  [4;35;1mProduct Load (0.5ms)[0m   [0mSELECT * FROM "products" WHERE ("products"."id" = 1) [0m
+Rendering template within layouts/store
+Rendering home/product
+  [4;36;1mSQL (0.2ms)[0m   [0;1mSELECT sum("order_items".quantity) AS sum_quantity FROM "order_items" WHERE ("order_items".order_id = 1) [0m
+Completed in 4ms (View: 2, DB: 1) | 200 OK [http://test.host/home/product/1]
+  [4;35;1mUser Exists (0.2ms)[0m   [0mSELECT "users".id FROM "users" WHERE ("users"."email" = 'foo@bar.com.br') LIMIT 1[0m
+  [4;36;1mUser Exists (0.1ms)[0m   [0;1mSELECT "users".id FROM "users" WHERE ("users"."login" = 'abcd') LIMIT 1[0m
+  [4;35;1mUser Create (0.4ms)[0m   [0mINSERT INTO "users" ("name", "updated_at", "cep", "terms", "address", "login", "password", "email", "created_at") VALUES('Abcd', '2010-06-25 01:35:53', '12345-123', 't', 'street', 'abcd', '12346', 'foo@bar.com.br', '2010-06-25 01:35:53')[0m
+
+
+Processing HomeController#login (for 0.0.0.0 at 2010-06-24 22:35:53) [POST]
+  Parameters: {"action"=>"login", "controller"=>"home", "login"=>"abcd", "password"=>"[FILTERED]"}
+  [4;36;1mOrder Create (0.2ms)[0m   [0;1mINSERT INTO "orders" ("status", "updated_at", "total", "user_id", "created_at") VALUES(NULL, '2010-06-25 01:35:53', NULL, NULL, '2010-06-25 01:35:53')[0m
+  [4;35;1mUser Load (0.3ms)[0m   [0mSELECT * FROM "users" WHERE ("users"."login" = 'abcd' AND "users"."password" = '12346') LIMIT 1[0m
+Redirected to /
+Completed in 3ms (DB: 1) | 302 Found [http://test.host/home/login?login=abcd&password=12346]
+
+
+Processing HomeController#login (for 0.0.0.0 at 2010-06-24 22:35:53) [POST]
+  Parameters: {"action"=>"login", "controller"=>"home", "login"=>"wrong", "password"=>"[FILTERED]"}
+  [4;36;1mOrder Create (0.4ms)[0m   [0;1mINSERT INTO "orders" ("status", "updated_at", "total", "user_id", "created_at") VALUES(NULL, '2010-06-25 01:35:53', NULL, NULL, '2010-06-25 01:35:53')[0m
+  [4;35;1mUser Load (0.3ms)[0m   [0mSELECT * FROM "users" WHERE ("users"."login" = 'wrong' AND "users"."password" = 'error') LIMIT 1[0m
+Redirected to /home/login
+Completed in 3ms (DB: 1) | 302 Found [http://test.host/home/login?login=wrong&password=error]
+  [4;36;1mSQL (0.7ms)[0m   [0;1m SELECT name
+ FROM sqlite_master
+ WHERE type = 'table' AND NOT name = 'sqlite_sequence'
+[0m
+  [4;35;1mSQL (0.7ms)[0m   [0m SELECT name
+ FROM sqlite_master
+ WHERE type = 'table' AND NOT name = 'sqlite_sequence'
+[0m
+  [4;36;1mSQL (0.7ms)[0m   [0;1m SELECT name
+ FROM sqlite_master
+ WHERE type = 'table' AND NOT name = 'sqlite_sequence'
+[0m
+  [4;35;1mSQL (0.9ms)[0m   [0m SELECT name
+ FROM sqlite_master
+ WHERE type = 'table' AND NOT name = 'sqlite_sequence'
+[0m
+  [4;36;1mSQL (0.8ms)[0m   [0;1m SELECT name
+ FROM sqlite_master
+ WHERE type = 'table' AND NOT name = 'sqlite_sequence'
+[0m
+  [4;35;1mSQL (0.7ms)[0m   [0m SELECT name
+ FROM sqlite_master
+ WHERE type = 'table' AND NOT name = 'sqlite_sequence'
+[0m
+  [4;36;1mSQL (0.7ms)[0m   [0;1m SELECT name
+ FROM sqlite_master
+ WHERE type = 'table' AND NOT name = 'sqlite_sequence'
+[0m
+  [4;35;1mSQL (0.6ms)[0m   [0m SELECT name
+ FROM sqlite_master
+ WHERE type = 'table' AND NOT name = 'sqlite_sequence'
+[0m
+  [4;36;1mSQL (1.2ms)[0m   [0;1m SELECT name
+ FROM sqlite_master
+ WHERE type = 'table' AND NOT name = 'sqlite_sequence'
+[0m
+  [4;35;1mSQL (0.7ms)[0m   [0m SELECT name
+ FROM sqlite_master
+ WHERE type = 'table' AND NOT name = 'sqlite_sequence'
+[0m
+  [4;36;1mSQL (0.6ms)[0m   [0;1m SELECT name
+ FROM sqlite_master
+ WHERE type = 'table' AND NOT name = 'sqlite_sequence'
+[0m
+  [4;35;1mSQL (0.5ms)[0m   [0m SELECT name
+ FROM sqlite_master
+ WHERE type = 'table' AND NOT name = 'sqlite_sequence'
+[0m
+
+
+Processing HomeController#index (for 0.0.0.0 at 2010-06-24 22:36:20) [GET]
+  Parameters: {"action"=>"index", "controller"=>"home"}
+  [4;36;1mOrder Create (0.8ms)[0m   [0;1mINSERT INTO "orders" ("status", "updated_at", "total", "user_id", "created_at") VALUES(NULL, '2010-06-25 01:36:20', NULL, NULL, '2010-06-25 01:36:20')[0m
+Rendering template within layouts/store
+Rendering home/index
+  [4;35;1mProduct Load (0.2ms)[0m   [0mSELECT * FROM "products" WHERE ((stock > 0) AND ("products"."front" = 't')) [0m
+  [4;36;1mPaymentMethod Load (0.1ms)[0m   [0;1mSELECT * FROM "payment_methods" WHERE ("payment_methods"."active" = 't') [0m
+  [4;35;1mSQL (0.2ms)[0m   [0mSELECT sum("order_items".quantity) AS sum_quantity FROM "order_items" WHERE ("order_items".order_id = 1) [0m
+Completed in 14ms (View: 5, DB: 3) | 200 OK [http://test.host/]
+  [4;36;1mProduct Exists (0.2ms)[0m   [0;1mSELECT "products".id FROM "products" WHERE ("products"."name" = 'front 0') LIMIT 1[0m
+  [4;35;1mProduct Create (0.4ms)[0m   [0mINSERT INTO "products" ("name", "updated_at", "price", "front", "stock", "description", "created_at") VALUES('front 0', '2010-06-25 01:36:20', 1.0, 't', 1, 'nonononononononononononononononononononononononono', '2010-06-25 01:36:20')[0m
+  [4;36;1mProduct Exists (0.1ms)[0m   [0;1mSELECT "products".id FROM "products" WHERE ("products"."name" = 'front 1') LIMIT 1[0m
+  [4;35;1mProduct Create (0.1ms)[0m   [0mINSERT INTO "products" ("name", "updated_at", "price", "front", "stock", "description", "created_at") VALUES('front 1', '2010-06-25 01:36:20', 1.0, 't', 1, 'nonononononononononononononononononononononononono', '2010-06-25 01:36:20')[0m
+  [4;36;1mProduct Exists (0.2ms)[0m   [0;1mSELECT "products".id FROM "products" WHERE ("products"."name" = 'front 2') LIMIT 1[0m
+  [4;35;1mProduct Create (0.1ms)[0m   [0mINSERT INTO "products" ("name", "updated_at", "price", "front", "stock", "description", "created_at") VALUES('front 2', '2010-06-25 01:36:20', 1.0, 't', 1, 'nonononononononononononononononononononononononono', '2010-06-25 01:36:20')[0m
+  [4;36;1mProduct Exists (0.1ms)[0m   [0;1mSELECT "products".id FROM "products" WHERE ("products"."name" = 'front 3') LIMIT 1[0m
+  [4;35;1mProduct Create (0.1ms)[0m   [0mINSERT INTO "products" ("name", "updated_at", "price", "front", "stock", "description", "created_at") VALUES('front 3', '2010-06-25 01:36:20', 1.0, 't', 1, 'nonononononononononononononononononononononononono', '2010-06-25 01:36:20')[0m
+  [4;36;1mProduct Exists (0.1ms)[0m   [0;1mSELECT "products".id FROM "products" WHERE ("products"."name" = 'front 4') LIMIT 1[0m
+  [4;35;1mProduct Create (0.1ms)[0m   [0mINSERT INTO "products" ("name", "updated_at", "price", "front", "stock", "description", "created_at") VALUES('front 4', '2010-06-25 01:36:20', 1.0, 't', 1, 'nonononononononononononononononononononononononono', '2010-06-25 01:36:20')[0m
+
+
+Processing HomeController#index (for 0.0.0.0 at 2010-06-24 22:36:20) [GET]
+  Parameters: {"action"=>"index", "controller"=>"home"}
+  [4;36;1mOrder Create (0.2ms)[0m   [0;1mINSERT INTO "orders" ("status", "updated_at", "total", "user_id", "created_at") VALUES(NULL, '2010-06-25 01:36:20', NULL, NULL, '2010-06-25 01:36:20')[0m
+Rendering template within layouts/store
+Rendering home/index
+  [4;35;1mProduct Load (0.7ms)[0m   [0mSELECT * FROM "products" WHERE ((stock > 0) AND ("products"."front" = 't')) [0m
+  [4;36;1mPaymentMethod Load (0.2ms)[0m   [0;1mSELECT * FROM "payment_methods" WHERE ("payment_methods"."active" = 't') [0m
+  [4;35;1mSQL (0.2ms)[0m   [0mSELECT sum("order_items".quantity) AS sum_quantity FROM "order_items" WHERE ("order_items".order_id = 1) [0m
+Completed in 148ms (View: 147, DB: 2) | 200 OK [http://test.host/]
+
+
+Processing HomeController#login (for 0.0.0.0 at 2010-06-24 22:36:21) [GET]
+  Parameters: {"action"=>"login", "controller"=>"home"}
+  [4;36;1mOrder Create (0.4ms)[0m   [0;1mINSERT INTO "orders" ("status", "updated_at", "total", "user_id", "created_at") VALUES(NULL, '2010-06-25 01:36:21', NULL, NULL, '2010-06-25 01:36:21')[0m
+Rendering template within layouts/store
+Rendering home/login
+  [4;35;1mSQL (0.2ms)[0m   [0mSELECT sum("order_items".quantity) AS sum_quantity FROM "order_items" WHERE ("order_items".order_id = 1) [0m
+Completed in 3ms (View: 2, DB: 0) | 200 OK [http://test.host/home/login]
+  [4;36;1mProduct Exists (0.1ms)[0m   [0;1mSELECT "products".id FROM "products" WHERE ("products"."name" = 'front') LIMIT 1[0m
+  [4;35;1mProduct Create (0.4ms)[0m   [0mINSERT INTO "products" ("name", "updated_at", "price", "front", "stock", "description", "created_at") VALUES('front', '2010-06-25 01:36:21', 1.0, 't', 1, 'nonononononononononononononononononononononononono', '2010-06-25 01:36:21')[0m
+
+
+Processing HomeController#product (for 0.0.0.0 at 2010-06-24 22:36:21) [GET]
+  Parameters: {"action"=>"product", "id"=>"1", "controller"=>"home"}
+  [4;36;1mOrder Create (0.2ms)[0m   [0;1mINSERT INTO "orders" ("status", "updated_at", "total", "user_id", "created_at") VALUES(NULL, '2010-06-25 01:36:21', NULL, NULL, '2010-06-25 01:36:21')[0m
+  [4;35;1mProduct Load (0.3ms)[0m   [0mSELECT * FROM "products" WHERE ("products"."id" = 1) [0m
+Rendering template within layouts/store
+Rendering home/product
+  [4;36;1mSQL (0.2ms)[0m   [0;1mSELECT sum("order_items".quantity) AS sum_quantity FROM "order_items" WHERE ("order_items".order_id = 1) [0m
+Completed in 4ms (View: 2, DB: 1) | 200 OK [http://test.host/home/product/1]
+  [4;35;1mUser Exists (0.2ms)[0m   [0mSELECT "users".id FROM "users" WHERE ("users"."email" = 'foo@bar.com.br') LIMIT 1[0m
+  [4;36;1mUser Exists (0.1ms)[0m   [0;1mSELECT "users".id FROM "users" WHERE ("users"."login" = 'abcd') LIMIT 1[0m
+  [4;35;1mUser Create (0.3ms)[0m   [0mINSERT INTO "users" ("name", "updated_at", "cep", "terms", "address", "login", "password", "email", "created_at") VALUES('Abcd', '2010-06-25 01:36:21', '12345-123', 't', 'street', 'abcd', '12346', 'foo@bar.com.br', '2010-06-25 01:36:21')[0m
+
+
+Processing HomeController#login (for 0.0.0.0 at 2010-06-24 22:36:21) [POST]
+  Parameters: {"action"=>"login", "controller"=>"home", "login"=>"abcd", "password"=>"[FILTERED]"}
+  [4;36;1mOrder Create (0.2ms)[0m   [0;1mINSERT INTO "orders" ("status", "updated_at", "total", "user_id", "created_at") VALUES(NULL, '2010-06-25 01:36:21', NULL, NULL, '2010-06-25 01:36:21')[0m
+  [4;35;1mUser Load (0.3ms)[0m   [0mSELECT * FROM "users" WHERE ("users"."login" = 'abcd' AND "users"."password" = '12346') LIMIT 1[0m
+Redirected to /
+Completed in 2ms (DB: 1) | 302 Found [http://test.host/home/login?login=abcd&password=12346]
+
+
+Processing HomeController#login (for 0.0.0.0 at 2010-06-24 22:36:21) [POST]
+  Parameters: {"action"=>"login", "controller"=>"home", "login"=>"wrong", "password"=>"[FILTERED]"}
+  [4;36;1mOrder Create (0.4ms)[0m   [0;1mINSERT INTO "orders" ("status", "updated_at", "total", "user_id", "created_at") VALUES(NULL, '2010-06-25 01:36:21', NULL, NULL, '2010-06-25 01:36:21')[0m
+  [4;35;1mUser Load (0.1ms)[0m   [0mSELECT * FROM "users" WHERE ("users"."login" = 'wrong' AND "users"."password" = 'error') LIMIT 1[0m
+Redirected to /home/login
+Completed in 2ms (DB: 0) | 302 Found [http://test.host/home/login?login=wrong&password=error]

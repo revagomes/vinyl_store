@@ -21,8 +21,31 @@ class HomeControllerTest < ActionController::TestCase
     product = Product.create :name => "front", :price => 1, :stock => 1, :front => true, :description => 'no'*25
     get :product, :id => product.id
     assert_response :success
-    assert_assigns(:product)
-    assert_select 'h2', "front"}
+    assert assigns(:product)
+    assert_select 'h2', "front"
+  end
+  
+  test "should get login" do
+     get :login
+     assert_response :success
+     assert_select 'form' do
+       assert_select 'input[name=login]'
+       assert_select 'input[name=password]'
+     end
+  end
+  
+  test "should not login" do
+    post :login, :login => 'wrong', :password => 'error'
+    assert_response :redirect
+    assert_redirected_to :action => :login
+  end
+  
+  test "should login" do
+    user = User.create! :name => 'Abcd', :password => '12346', :email => 'foo@bar.com.br', :cep => '12345-123', :login => 'abcd', :address => 'street', :terms => true
+    post :login, :login => 'abcd', :password => '12346'
+    assert_response :redirect
+    assert_redirected_to :controller => :home, :action => :index
+    assert_equal user.id, session[:user_id]
   end
   
 end
